@@ -1,0 +1,56 @@
+@import "../imports.scss";
+
+
+
+.date{
+  width:100vw;
+  height:auto;
+  background-color: $blackB;
+  padding-bottom:20px;
+
+      .date_style{
+        padding-top: 3vw;
+        width:auto;
+        text-align:center;
+        font-size: 3em;
+        font-family:pantherregular, sans-serif;
+          background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      }
+
+}
+
+
+
+.clock{
+
+  width:100vw;
+  height:18vw;
+  background-color: $bgcA;
+
+      #clock_style{
+        width:auto;
+        text-align:center;
+        font-size:18vw;
+        font-family:pantherregular, sans-serif;
+        background: linear-gradient(-330deg, $PinkB  0%, $PinkB 25%, #8677E0 50%, $blueB  75%,$blueB 100%);
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      }
+
+}
+
+
+
+.controller{
+  width:100vw;
+  height:50px;
+  background-color: $blackB;
+
+    .controller_style{
+
+    }
+
+}

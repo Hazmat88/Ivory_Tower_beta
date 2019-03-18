@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;EAIE;ACcF;;;;EAIE;AAJF;;;;EAIE;ACnBF,KAAK;EACH,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,gBAAgB,EDwBZ,OAAO;;AAZb;;;;EAIE;ADRF,IAAI;EACF,gBAAgB,ECoBX,OAAO;;ADlBd;;;;;;;;;;;;EAYE",
+"sources": ["../../sass/desktop/style_desktop.scss","../../sass/var_colors/colors.scss","../../sass/desktop/header_d.scss"],
+"names": [],
+"file": "style_desktop.css"
+}

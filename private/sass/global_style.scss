@@ -1,0 +1,26 @@
+//RESET css
+@import "reset.scss";
+
+// Import Variables & Colors
+@import "imports.scss";
+
+
+//Import Style Devices
+
+@import "mobil/style_mobil.scss";
+
+
+//IMPORT DESKTOP STYLE on Condition scree-size
+@media screen and (min-width: 1050px){
+    @import  "desktop/style_desktop.scss";
+}
+
+
+@font-face {
+    font-family: 'pantherregular';
+    src: url('../fonts/panther-webfont.woff2') format('woff2'),
+       url('../fonts/panther-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,39 @@
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.date {
+  width: 100vw;
+  height: auto;
+  background-color: #323232;
+  padding-bottom: 20px; }
+  .date .date_style {
+    padding-top: 3vw;
+    width: auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #B3D5D6 0%, #B3D5D6 25%, #8677E0 50%, #F8C8D6 75%, #F8C8D6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.clock {
+  width: 100vw;
+  height: 18vw;
+  background-color: #404040; }
+  .clock #clock_style {
+    width: auto;
+    text-align: center;
+    font-size: 18vw;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #F8C8D6 0%, #F8C8D6 25%, #8677E0 50%, #B3D5D6 75%, #B3D5D6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.controller {
+  width: 100vw;
+  height: 50px;
+  background-color: #323232; }
+
+/*# sourceMappingURL=header_m.css.map */

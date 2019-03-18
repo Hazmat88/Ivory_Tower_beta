@@ -1,0 +1,11 @@
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.date {
+  width: 60vw;
+  height: 20vw;
+  background-color: #404040; }
+
+/*# sourceMappingURL=header_d.css.map */

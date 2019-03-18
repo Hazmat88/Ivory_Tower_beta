@@ -1,0 +1,11 @@
+@import "../imports.scss";
+
+
+// Imports Subfiles
+@import "header_m.scss";
+@import "module_C2_m.scss";
+
+
+body{
+  background-color: $PinkB;
+}

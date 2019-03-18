@@ -1,0 +1,30 @@
+/* Import variables
+@import "../var_colors/colors.scss";
+@import "../var_colors/fonts.scss";
+@import "../var_colors/variables.scss";
+*/
+@import "../imports.scss";
+
+// Imports Subfiles
+@import "header_d.scss";
+@import "module_C2_d.scss";
+
+
+
+
+body{
+  background-color: $blueB;
+}
+/*
+h1{
+  float:right;
+color:white;
+font-size: 8vw;
+font-family:pantherregular, sans-serif;
+font-weight:bold;
+background: linear-gradient(330deg, #BB514A 0%, #CB2882 25%, #8677E0 50%, #53DDE0  75%, #53DDE0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0vw;
+}
+*/

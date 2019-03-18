@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAkBA;;;;EAIE;ACnBF,KAAK;EACH,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;EACX,gBAAgB,EDwBZ,OAAO",
+"sources": ["../../sass/var_colors/colors.scss","../../sass/desktop/header_d.scss"],
+"names": [],
+"file": "header_d.css"
+}

@@ -1,0 +1,34 @@
+@import "../imports.scss";
+
+.camera01{
+    width: 100vw;
+    height:40vw;
+    background-color: #404040;
+
+    .huda{
+      width: auto;
+      height:5vw;
+      background-color:$PinkB;
+    }
+
+    .cam01{
+      margin-top: 3vw;
+      width: 100%;
+      height:60vw;
+      background-color: grey;
+    }
+}
+
+
+.camera02{
+  width:100vw;
+  height: 40vw;
+  background-color: #404040;
+
+  .huda{
+    width: auto;
+    height:5vw;
+    background-color:$blueB;
+  }
+
+}

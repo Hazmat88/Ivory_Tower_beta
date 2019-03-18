@@ -1,0 +1,37 @@
+//Palette A Red Purple First DFesign
+
+
+$orange:#BB514A;
+$redA:#CB2882;
+$purpleA:#8677E0;
+$BlueA1:#53DDE0;
+$BlueA2:#53DDE0;
+
+// Mixins Fonction for Gradient Linear 330 deré Declaration de la mixin comme ci dessou
+@mixin Gradient_C($C1,$C2,$C3,$C4,$C5){
+  background: linear-gradient(330deg, C1 0%, C2 25%, C3 50%, C4  75%,
+  C5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+//Utilisation de la Mixins
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+
+
+//Palette B Blue to Pink Second Design
+
+
+$blackB: #323232;
+
+$bgcA:#404040;
+$bgcB:#515151;
+$lightgrey:#E6E6E6;
+
+
+$blueB:#B3D5D6;
+$PinkB:#F8C8D6;

@@ -1,0 +1,75 @@
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.date {
+  width: 100vw;
+  height: auto;
+  background-color: #323232;
+  padding-bottom: 20px; }
+  .date .date_style {
+    padding-top: 3vw;
+    width: auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #B3D5D6 0%, #B3D5D6 25%, #8677E0 50%, #F8C8D6 75%, #F8C8D6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.clock {
+  width: 100vw;
+  height: 18vw;
+  background-color: #404040; }
+  .clock #clock_style {
+    width: auto;
+    text-align: center;
+    font-size: 18vw;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #F8C8D6 0%, #F8C8D6 25%, #8677E0 50%, #B3D5D6 75%, #B3D5D6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.controller {
+  width: 100vw;
+  height: 50px;
+  background-color: #323232; }
+
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.camera01 {
+  width: 100vw;
+  height: 40vw;
+  background-color: #404040; }
+  .camera01 .huda {
+    width: auto;
+    height: 5vw;
+    background-color: #F8C8D6; }
+  .camera01 .cam01 {
+    margin-top: 3vw;
+    width: 100%;
+    height: 60vw;
+    background-color: grey; }
+
+.camera02 {
+  width: 100vw;
+  height: 40vw;
+  background-color: #404040; }
+  .camera02 .huda {
+    width: auto;
+    height: 5vw;
+    background-color: #B3D5D6; }
+
+body {
+  background-color: #F8C8D6; }
+
+/*# sourceMappingURL=style_mobil.css.map */

@@ -1,0 +1,43 @@
+/* Import variables
+@import "../var_colors/colors.scss";
+@import "../var_colors/fonts.scss";
+@import "../var_colors/variables.scss";
+*/
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.date {
+  width: 60vw;
+  height: 20vw;
+  background-color: #404040; }
+
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+body {
+  background-color: #B3D5D6; }
+
+/*
+h1{
+  float:right;
+color:white;
+font-size: 8vw;
+font-family:pantherregular, sans-serif;
+font-weight:bold;
+background: linear-gradient(330deg, #BB514A 0%, #CB2882 25%, #8677E0 50%, #53DDE0  75%, #53DDE0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0vw;
+}
+*/
+
+/*# sourceMappingURL=style_desktop.css.map */
