@@ -9,6 +9,7 @@
   background-color: #323232;
   padding-bottom: 20px; }
   .date .date_style {
+    margin-right: 15vw;
     padding-top: 3vw;
     width: auto;
     text-align: center;
@@ -34,6 +35,14 @@
 .controller {
   width: 100vw;
   height: 50px;
-  background-color: #323232; }
+  background-color: #CD5C5C; }
+
+.nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 90px;
+  height: 90px;
+  background-color: #CD5C5C; }
 
 /*# sourceMappingURL=header_m.css.map */

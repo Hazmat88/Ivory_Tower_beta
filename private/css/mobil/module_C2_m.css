@@ -7,12 +7,24 @@
   width: 100vw;
   height: 40vw;
   background-color: #404040; }
-  .camera01 .huda {
+  .camera01 .hudA {
     width: auto;
     height: 5vw;
-    background-color: #F8C8D6; }
+    background-color: #323232; }
+    .camera01 .hudA a {
+      display: none; }
+  .camera01 .titleA {
+    width: auto;
+    height: 5vw;
+    background-color: #B3D5D6; }
+    .camera01 .titleA input, .camera01 .titleA button {
+      display: none; }
+    .camera01 .titleA a {
+      text-align: center;
+      display: block !important;
+      text-decoration: none;
+      color: inherit; }
   .camera01 .cam01 {
-    margin-top: 3vw;
     width: 100%;
     height: 60vw;
     background-color: grey; }

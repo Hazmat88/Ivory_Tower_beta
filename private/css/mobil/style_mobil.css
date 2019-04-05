@@ -14,6 +14,7 @@
   background-color: #323232;
   padding-bottom: 20px; }
   .date .date_style {
+    margin-right: 15vw;
     padding-top: 3vw;
     width: auto;
     text-align: center;
@@ -39,7 +40,15 @@
 .controller {
   width: 100vw;
   height: 50px;
-  background-color: #323232; }
+  background-color: #CD5C5C; }
+
+.nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 90px;
+  height: 90px;
+  background-color: #CD5C5C; }
 
 /*
 .article{
@@ -50,12 +59,24 @@
   width: 100vw;
   height: 40vw;
   background-color: #404040; }
-  .camera01 .huda {
+  .camera01 .hudA {
     width: auto;
     height: 5vw;
-    background-color: #F8C8D6; }
+    background-color: #323232; }
+    .camera01 .hudA a {
+      display: none; }
+  .camera01 .titleA {
+    width: auto;
+    height: 5vw;
+    background-color: #B3D5D6; }
+    .camera01 .titleA input, .camera01 .titleA button {
+      display: none; }
+    .camera01 .titleA a {
+      text-align: center;
+      display: block !important;
+      text-decoration: none;
+      color: inherit; }
   .camera01 .cam01 {
-    margin-top: 3vw;
     width: 100%;
     height: 60vw;
     background-color: grey; }
@@ -70,6 +91,6 @@
     background-color: #B3D5D6; }
 
 body {
-  background-color: #F8C8D6; }
+  background-color: #404040; }
 
 /*# sourceMappingURL=style_mobil.css.map */
