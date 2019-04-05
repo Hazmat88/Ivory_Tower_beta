@@ -113,6 +113,13 @@ table {
       display: block !important;
       text-decoration: none;
       color: inherit; }
+    .camera01 .titleA .button_switch_hud {
+      float: right;
+      position: relative;
+      margin-top: -17px;
+      height: 5vw;
+      width: 5vw;
+      background-color: #CD5C5C; }
   .camera01 .cam01 {
     width: 100%;
     height: 60vw;

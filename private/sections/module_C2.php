@@ -15,6 +15,9 @@
                 <button id="subhda" onclick="hud_switch()">Try it</button>
 
                 <h1 ><a id="name_titleA" href="http://192.168.1.27:8080" target="_blank" >Name + IP Adress</a></h1>
+
+                <div class="button_switch_hud" onclick="hud_link()"></div>
+
             </div>
 
             <div class="flux_A">
@@ -75,7 +78,7 @@
 
         if ( hud.className === "hudA") {
           hud.setAttribute("class", "titleA");
-        
+
         }else {
           hud.setAttribute("class", "hudA");
         }

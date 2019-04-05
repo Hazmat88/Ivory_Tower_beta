@@ -27,6 +27,15 @@
             text-decoration: none;
             color: inherit;
           }
+
+         .button_switch_hud{
+            float:right;
+            position:relative;
+            margin-top:-17px;
+            height: 5vw;
+            width: 5vw;
+            background-color: $build;
+          }
     }
 
 
