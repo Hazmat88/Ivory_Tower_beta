@@ -5,7 +5,7 @@
 */
 .camera01 {
   width: 100vw;
-  height: 40vw;
+  height: 50px;
   background-color: #404040; }
   .camera01 .hudA {
     width: auto;
@@ -15,7 +15,7 @@
       display: none; }
   .camera01 .titleA {
     width: auto;
-    height: 5vw;
+    height: 50px;
     background-color: #B3D5D6; }
     .camera01 .titleA input, .camera01 .titleA button {
       display: none; }
@@ -23,14 +23,17 @@
       text-align: center;
       display: block !important;
       text-decoration: none;
-      color: inherit; }
+      color: inherit;
+      font-size: 2em;
+      font-family: pantherregular, sans-serif; }
     .camera01 .titleA .button_switch_hud {
       float: right;
-      position: relative;
-      margin-top: -17px;
-      height: 5vw;
-      width: 5vw;
+      margin-top: -47px;
+      height: 50px;
+      width: 50px;
       background-color: #CD5C5C; }
+  .camera01 .titleA h1 {
+    padding-top: 1.2vw; }
   .camera01 .cam01 {
     width: 100%;
     height: 60vw;

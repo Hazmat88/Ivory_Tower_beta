@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAkBA;;;;EAIE",
+"mappings": "AAUA;;;;EAIE",
 "sources": ["../sass/var_colors/colors.scss"],
 "names": [],
 "file": "imports.css"

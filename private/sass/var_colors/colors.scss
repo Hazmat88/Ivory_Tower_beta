@@ -1,13 +1,5 @@
-//Palette A Red Purple First DFesign
-
-
-$orange:#BB514A;
-$redA:#CB2882;
-$purpleA:#8677E0;
-$BlueA1:#53DDE0;
-$BlueA2:#53DDE0;
-
 // Mixins Fonction for Gradient Linear 330 deré Declaration de la mixin comme ci dessou
+
 @mixin Gradient_C($C1,$C2,$C3,$C4,$C5){
   background: linear-gradient(330deg, C1 0%, C2 25%, C3 50%, C4  75%,
   C5 100%);
@@ -22,20 +14,43 @@ $BlueA2:#53DDE0;
 }
 */
 
+//COLORS
 
-//Palette B Blue to Pink Second Design
+//Palettes Build_Constructs
+$build:#CD5C5C;
+$black:black;
+$white:white;
 
+//Shades OF GREYS [Black/White]
 
 $blackB: #323232;
-
 $bgcA:#404040;
 $bgcB:#515151;
 $lightgrey:#E6E6E6;
 
 
+//Palette A Red Purple First DFesign
+
+$orange:#BB514A;
+$redA:#CB2882;
+$purpleA:#8677E0;
+$BlueA1:#53DDE0;
+$BlueA2:#53DDE0;
+
+
+//Palette PASTEL PINK & BLUE 2K19
+
 $blueB:#B3D5D6;
 $PinkB:#F8C8D6;
 
-
 $PinkC:#FFC0CB;
-$build:#CD5C5C;
+
+
+
+//Palettes SUMMER 2K18
+$purpleS18:#5E4A89;
+$magentaS18:#A7558F;
+$redS18:#E26882;
+$orangeS18:#5E4A89;
+$orangelightS18:#FFC061;
+$yellowS18:#F9F870;
