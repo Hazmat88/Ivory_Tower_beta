@@ -1,6 +1,7 @@
 @import "../imports.scss";
 
 .camera01{
+
     width: 100vw;
     height:50px;
     background-color: #404040;
@@ -25,6 +26,7 @@
           }
 
           a{
+            padding-top: 10px;
             text-align: center;
             display: block !important;
             text-decoration: none;
@@ -34,8 +36,9 @@
           }
 
          .button_switch_hud{
+           display: block !important;
             float:right;
-            margin-top:-47px;
+            margin-top:-42px;
             height: 50px;
             width: 50px;
             background-color: $build;
@@ -53,16 +56,66 @@
     }
 }
 
+.twoscreen{
+  width:100px;
+  height: 100px;
+  background-color:$orangelightS18 ;
+}
 
+// *************** CAM02************
 .camera02{
-  width:100vw;
-  height: 40vw;
-  background-color: #404040;
+  margin-top:70vw;
 
-  .huda{
-    width: auto;
-    height:5vw;
-    background-color:$blueB;
+    width: 100vw;
+    height:50px;
+    background-color: #404040;
+
+    .hudB{
+      width: auto;
+      height:5vw;
+      background-color:$blackB;
+        a{
+          display:none;
+        }
+    }
+
+
+
+    .titleB{
+      width: auto;
+      height:50px;
+      background-color:$blueB;
+          input, button{
+            display:none;
+          }
+
+          a{
+            padding-top: 10px;
+            text-align: center;
+            display: block !important;
+            text-decoration: none;
+            color: inherit;
+            font-size: 2em;
+            font-family:pantherregular, sans-serif;
+          }
+
+         .button_switch_hud{
+           display: block !important;
+            float:right;
+            margin-top:-42px;
+            height: 50px;
+            width: 50px;
+            background-color: $build;
+          }
+    }
+.titleB   h1{
+    padding-top:1.2vw;
   }
 
+    .cam02{
+      //margin-top: 3vw;
+      width: 100%;
+      height:60vw;
+      background-color: grey;
+    }
 }

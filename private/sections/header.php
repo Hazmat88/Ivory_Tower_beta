@@ -17,9 +17,12 @@
 
            <div id="controller" class="controller">
               <h1 id="controller_style"></h1>
+              <div id="twoscreen" class="twoscreen" onclick="showhide_cam02();switch_twoscreen()">
+
+              </div>
            </div>
 
-           <div id="nav" class="nav" onclick="showhide_controller()">
+           <div id="nav" class="nav" onclick="openNav(); showhide_controller()">
 
            </div>
 
@@ -32,7 +35,25 @@
                   x.style.display = "none";
                 }
              }
+
+             function showhide_cam02(){
+               var x = document.getElementById("camera02");
+               var y = document.getElementById("browser_video");
+                if (x.style.display === "none") {
+                  x.style.display = "block";
+                  y.style.height = "40vw";
+                } else {
+                  x.style.display = "none";
+                  y.style.height = "60vw";
+                }
+             }
+
+
+
+
            </script>
 
       </div>
+
+    <?php include "private/sections/sidenav.php"; ?>
 </header>
