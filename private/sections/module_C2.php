@@ -69,7 +69,7 @@
 -->
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
             <div class="frame_titleB">
-                <a id="link_titleB" href="http://192.168.1.31:8080" target="_blank" >Name + IP ADRESS</a>
+                <a id="link_titleB" href="http://192.168.1.37:8080" target="_blank" >Name + IP ADRESS</a>
 
                 <div class="button_switch_hud" onclick="hud_link()"></div>
             </div>
