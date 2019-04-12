@@ -9,14 +9,22 @@
   background-color: #404040; }
   .camera01 .hudA {
     width: auto;
-    height: 5vw;
-    background-color: #323232; }
+    height: 50px;
+    background-color: #5E4A89; }
     .camera01 .hudA a {
       display: none; }
+    .camera01 .hudA input {
+      margin-top: 10px;
+      width: 20vw;
+      height: 25px;
+      border: none;
+      text-align: center; }
+  .camera01 .input_ {
+    padding-left: 15vw; }
   .camera01 .titleA {
-    width: auto;
+    width: 100%;
     height: 50px;
-    background-color: #B3D5D6; }
+    background-color: #FF8D6E; }
     .camera01 .titleA input, .camera01 .titleA button {
       display: none; }
     .camera01 .titleA a {
@@ -27,40 +35,42 @@
       color: inherit;
       font-size: 2em;
       font-family: pantherregular, sans-serif; }
+    .camera01 .titleA h1 {
+      padding-top: 1.2vw; }
     .camera01 .titleA .button_switch_hud {
       display: block !important;
-      float: right;
+      float: left;
       margin-top: -42px;
       height: 50px;
       width: 50px;
-      background-color: #CD5C5C; }
-  .camera01 .titleA h1 {
-    padding-top: 1.2vw; }
+      background-color: #E26882; }
   .camera01 .cam01 {
     width: 100%;
     height: 60vw;
     background-color: grey; }
 
-.twoscreen {
-  width: 100px;
-  height: 100px;
-  background-color: #FFC061; }
-
 .camera02 {
-  margin-top: 70vw;
   width: 100vw;
   height: 50px;
   background-color: #404040; }
   .camera02 .hudB {
     width: auto;
-    height: 5vw;
-    background-color: #323232; }
+    height: 50px;
+    background-color: #5E4A89; }
     .camera02 .hudB a {
       display: none; }
+    .camera02 .hudB input {
+      margin-top: 10px;
+      width: 20vw;
+      height: 25px;
+      border: none;
+      text-align: center; }
+  .camera02 .input_ {
+    padding-left: 15vw; }
   .camera02 .titleB {
     width: auto;
     height: 50px;
-    background-color: #B3D5D6; }
+    background-color: #FF8D6E; }
     .camera02 .titleB input, .camera02 .titleB button {
       display: none; }
     .camera02 .titleB a {
@@ -77,7 +87,7 @@
       margin-top: -42px;
       height: 50px;
       width: 50px;
-      background-color: #CD5C5C; }
+      background-color: #E26882; }
   .camera02 .titleB h1 {
     padding-top: 1.2vw; }
   .camera02 .cam02 {

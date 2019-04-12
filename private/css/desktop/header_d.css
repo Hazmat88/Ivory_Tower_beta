@@ -3,9 +3,22 @@
   @include nomdumixins(red,500px);
 }
 */
+.head {
+  display: flex;
+  width: 100%; }
+
 .date {
-  width: 60vw;
-  height: 20vw;
+  width: 50%;
+  height: auto;
   background-color: #404040; }
+  .date .date_style {
+    margin-right: 0px; }
+
+.clock {
+  width: 50%;
+  height: auto;
+  background-color: #323232; }
+  .clock #clock_style {
+    font-size: 7vw; }
 
 /*# sourceMappingURL=header_d.css.map */

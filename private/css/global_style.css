@@ -57,36 +57,227 @@ table {
     text-align: center;
     font-size: 3em;
     font-family: pantherregular, sans-serif;
-    background: linear-gradient(-330deg, #B3D5D6 0%, #B3D5D6 25%, #8677E0 50%, #F8C8D6 75%, #F8C8D6 100%);
+    background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 .clock {
-  width: 100vw;
+  width: 90vw;
   height: 18vw;
   background-color: #404040; }
   .clock #clock_style {
+    padding-top: 10px;
     width: auto;
     text-align: center;
-    font-size: 18vw;
+    font-size: 15vw;
     font-family: pantherregular, sans-serif;
-    background: linear-gradient(-330deg, #F8C8D6 0%, #F8C8D6 25%, #8677E0 50%, #B3D5D6 75%, #B3D5D6 100%);
+    background: linear-gradient(-330deg, #5E4A89 0%, #A7558F 25%, #FF8D6E 50%, #FFC061 75%, #F9F870 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 .controller {
   width: 100vw;
   height: 50px;
-  background-color: #CD5C5C; }
+  background-color: #E26882;
+  /*    animation: colorchange 100s linear infinite; /* animation-name followed by duration in seconds
+      -webkit-animation: colorchange 100s linear infinite; /* Chrome and Safari
+      -moz-animation: colorchange 100s linear infinite;
+      -o-animation: colorchange 100s linear infinite;
+*/ }
+  .controller .twoscreen {
+    width: 100px;
+    height: 50px;
+    background-color: #FFC061; }
+  .controller .ctrl2 {
+    /*margin-left:200px;
+    width:100px;
+    height: 100px;
+    background-color:$yellowS18 ;*/ }
 
 .nav {
   position: fixed;
-  top: 0px;
-  right: 0px;
-  width: 90px;
-  height: 90px;
-  background-color: #CD5C5C; }
+  top: 2.5vw;
+  right: 2.5vw;
+  width: 50px;
+  height: 50px;
+  background: url("../private/img/burger_icon.png") no-repeat center;
+  background-image: url("../img/burger_icon.svg");
+  background-size: contain; }
 
+.btncontroller {
+  position: fixed;
+  top: 120px;
+  right: 2vw;
+  width: 60px;
+  height: 60px;
+  background: url("../private/img/controller_icon.png") no-repeat center;
+  background-image: url("../img/controller_icon.svg");
+  background-size: contain; }
+
+@keyframes colorchange {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
+@-moz-keyframes colorchange /* Firefox */ {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
+@-o-keyframes colorchange /* Opera */ {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
 /* The side navigation menu */
 .sidenav {
   height: 100%;
@@ -100,7 +291,7 @@ table {
   top: 0;
   /* Stay at the top */
   right: 0;
-  background-color: #111;
+  background-color: #323232;
   /* Black*/
   overflow-x: hidden;
   /* Disable horizontal scroll */
@@ -110,11 +301,14 @@ table {
   /* 0.5 second transition effect to slide in the sidenav */ }
 
 /* The navigation menu links */
+.nav_links {
+  padding-top: 50px; }
+
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 12px 8px 8px 50px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 30px;
+  color: #E26882;
   display: block;
   transition: 0.3s; }
 
@@ -125,10 +319,11 @@ table {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px; }
+  top: 1vw;
+  right: 2vw;
+  font-size: 80px;
+  margin-left: 50px;
+  color: #FFC061; }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -146,14 +341,22 @@ table {
   background-color: #404040; }
   .camera01 .hudA {
     width: auto;
-    height: 5vw;
-    background-color: #323232; }
+    height: 50px;
+    background-color: #5E4A89; }
     .camera01 .hudA a {
       display: none; }
+    .camera01 .hudA input {
+      margin-top: 10px;
+      width: 20vw;
+      height: 25px;
+      border: none;
+      text-align: center; }
+  .camera01 .input_ {
+    padding-left: 15vw; }
   .camera01 .titleA {
-    width: auto;
+    width: 100%;
     height: 50px;
-    background-color: #B3D5D6; }
+    background-color: #FF8D6E; }
     .camera01 .titleA input, .camera01 .titleA button {
       display: none; }
     .camera01 .titleA a {
@@ -164,40 +367,42 @@ table {
       color: inherit;
       font-size: 2em;
       font-family: pantherregular, sans-serif; }
+    .camera01 .titleA h1 {
+      padding-top: 1.2vw; }
     .camera01 .titleA .button_switch_hud {
       display: block !important;
-      float: right;
+      float: left;
       margin-top: -42px;
       height: 50px;
       width: 50px;
-      background-color: #CD5C5C; }
-  .camera01 .titleA h1 {
-    padding-top: 1.2vw; }
+      background-color: #E26882; }
   .camera01 .cam01 {
     width: 100%;
     height: 60vw;
     background-color: grey; }
 
-.twoscreen {
-  width: 100px;
-  height: 100px;
-  background-color: #FFC061; }
-
 .camera02 {
-  margin-top: 70vw;
   width: 100vw;
   height: 50px;
   background-color: #404040; }
   .camera02 .hudB {
     width: auto;
-    height: 5vw;
-    background-color: #323232; }
+    height: 50px;
+    background-color: #5E4A89; }
     .camera02 .hudB a {
       display: none; }
+    .camera02 .hudB input {
+      margin-top: 10px;
+      width: 20vw;
+      height: 25px;
+      border: none;
+      text-align: center; }
+  .camera02 .input_ {
+    padding-left: 15vw; }
   .camera02 .titleB {
     width: auto;
     height: 50px;
-    background-color: #B3D5D6; }
+    background-color: #FF8D6E; }
     .camera02 .titleB input, .camera02 .titleB button {
       display: none; }
     .camera02 .titleB a {
@@ -214,7 +419,7 @@ table {
       margin-top: -42px;
       height: 50px;
       width: 50px;
-      background-color: #CD5C5C; }
+      background-color: #E26882; }
   .camera02 .titleB h1 {
     padding-top: 1.2vw; }
   .camera02 .cam02 {
@@ -241,18 +446,59 @@ body {
     @include nomdumixins(red,500px);
   }
   */
+  .head {
+    display: flex;
+    width: 100%; }
+
   .date {
-    width: 60vw;
-    height: 20vw;
+    width: 50%;
+    height: auto;
     background-color: #404040; }
+    .date .date_style {
+      margin-right: 0px; }
+
+  .clock {
+    width: 50%;
+    height: auto;
+    background-color: #323232; }
+    .clock #clock_style {
+      font-size: 7vw; }
 
   /*
   .article{
     @include nomdumixins(red,500px);
   }
   */
+  .cameras {
+    display: flex;
+    width: 100%; }
+
+  .camera01 {
+    width: 50%;
+    height: 90%;
+    background-color: grey; }
+    .camera01 .cam01 {
+      width: 100%;
+      height: 35%; }
+    .camera01 .hudA input {
+      width: 10vw; }
+    .camera01 .input_ {
+      padding-left: 10vw; }
+
+  .camera02 {
+    width: 50%;
+    height: 50%;
+    background-color: grey; }
+    .camera02 .cam02 {
+      width: 100%;
+      height: 35%; }
+    .camera02 .hudB input {
+      width: 10vw; }
+    .camera02 .input_ {
+      padding-left: 10vw; }
+
   body {
-    background-color: #B3D5D6; }
+    background-color: #E26882; }
 
   /*
   h1{
@@ -272,5 +518,10 @@ body {
   src: url("../fonts/panther-webfont.woff2") format("woff2"), url("../fonts/panther-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+/*
+.main{
+  min-height: 100vh;
+}
+*/
 
 /*# sourceMappingURL=global_style.css.map */

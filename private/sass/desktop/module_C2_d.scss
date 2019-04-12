@@ -1,1 +1,61 @@
 @import "../imports.scss";
+
+.cameras{
+  display :flex;
+  width: 100%;
+}
+.camera01{
+  //margin-top: 3vw;
+  width: 50%;
+  height:90%;//no influence
+  background-color: grey;
+
+
+      .cam01{
+        width: 100%; //Seems Link to Height variable
+        height:35%;
+      }
+
+.hudA{
+
+  input{
+    width: 10vw;
+  }
+
+}
+
+
+  .input_{
+    padding-left: 10vw;
+  }
+}
+
+
+//*************************************************************//
+
+.camera02{
+  //margin-top: 3vw;
+  width: 50%;
+  height:50%;//no influence
+  background-color: grey;
+
+
+      .cam02{
+        width: 100%; //Seems Link to Height variable
+        height:35%;
+      }
+
+      .hudB{
+
+        input{
+          width: 10vw;
+        }
+
+      }
+
+
+        .input_{
+          padding-left: 10vw;
+        }
+
+}

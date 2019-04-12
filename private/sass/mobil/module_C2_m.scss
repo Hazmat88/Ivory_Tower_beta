@@ -1,5 +1,6 @@
 @import "../imports.scss";
 
+
 .camera01{
 
     width: 100vw;
@@ -8,17 +9,28 @@
 
     .hudA{
       width: auto;
-      height:5vw;
-      background-color:$blackB;
+      height:50px;
+      background-color:$purpleS18;
         a{
           display:none;
         }
+
+        input{
+          margin-top:10px;
+          width: 20vw;
+          height: 25px;
+          //background-color: $orangelightS18;
+          border:none;
+          text-align:center;
+        }
     }
 
-
+  .input_{
+    padding-left:15vw;
+  }
 
     .titleA{
-      width: auto;
+      width: 100%;
       height:50px;
       background-color:$blueB;
           input, button{
@@ -35,18 +47,21 @@
             font-family:pantherregular, sans-serif;
           }
 
+          h1{
+             padding-top:1.2vw;
+           }
+
          .button_switch_hud{
            display: block !important;
-            float:right;
+            float:left;
             margin-top:-42px;
+
             height: 50px;
             width: 50px;
             background-color: $build;
           }
     }
-.titleA   h1{
-    padding-top:1.2vw;
-  }
+
 
     .cam01{
       //margin-top: 3vw;
@@ -56,29 +71,36 @@
     }
 }
 
-.twoscreen{
-  width:100px;
-  height: 100px;
-  background-color:$orangelightS18 ;
-}
+
 
 // *************** CAM02************
 .camera02{
-  margin-top:70vw;
-
-    width: 100vw;
+    //display:none;
+    //margin-top:70vw;
+      width: 100vw;
     height:50px;
     background-color: #404040;
 
     .hudB{
       width: auto;
-      height:5vw;
-      background-color:$blackB;
+      height:50px;
+      background-color:$purpleS18;
         a{
           display:none;
         }
-    }
 
+        input{
+          margin-top:10px;
+          width: 20vw;
+          height: 25px;
+          //background-color: $orangelightS18;
+          border:none;
+          text-align:center;
+        }
+    }
+    .input_{
+      padding-left:15vw;
+    }
 
 
     .titleB{

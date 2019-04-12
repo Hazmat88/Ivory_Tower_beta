@@ -1,11 +1,13 @@
 
 
-<div class="Cameras">
+<div class="cameras">
 
     <div id="camera01" class="camera01">
 
             <div id="huda" class="hudA">
 <!--********** HUDA ELEMENTS INPUTS & BUTTONS *************-->
+            <div class="input_">
+
 
                 <input type="text" id="dropdown_BD" placeholder="Data Base">
 
@@ -14,7 +16,7 @@
                 <input type="text" id="ipadd" placeholder="Just Device Number IP" >
 
                 <button id="subhda" onclick="hud_switch()">DONE</button>
-
+            </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
                 <div class="frame_titleA">
@@ -56,7 +58,8 @@
 <div id="camera02" class="camera02">
 
         <div id="hudb" class="hudB">
-<!--********** HUDA ELEMENTS INPUTS & BUTTONS *************
+<!--********** HUDA ELEMENTS INPUTS & BUTTONS *************-->
+      <div class="input_">
 
             <input type="text" id="dropdown_BD" placeholder="Data Base">
 
@@ -65,8 +68,8 @@
             <input type="text" id="ipadd" placeholder="Just Device Number IP" >
 
             <button id="subhda" onclick="hud_switch()">DONE</button>
+      </div>
 
--->
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
             <div class="frame_titleB">
                 <a id="link_titleB" href="http://192.168.1.37:8080" target="_blank" >Name + IP ADRESS</a>
@@ -79,7 +82,7 @@
 <!--*******************************************************************
 ********************** FLUX A **************************************************************** -->
         <div class="flux_B">
-            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.31:8080/video">
+            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.37:8080/video">
         </div>
 
 <!--*******************************************************************

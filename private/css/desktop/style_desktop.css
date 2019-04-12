@@ -13,18 +13,59 @@
   @include nomdumixins(red,500px);
 }
 */
+.head {
+  display: flex;
+  width: 100%; }
+
 .date {
-  width: 60vw;
-  height: 20vw;
+  width: 50%;
+  height: auto;
   background-color: #404040; }
+  .date .date_style {
+    margin-right: 0px; }
+
+.clock {
+  width: 50%;
+  height: auto;
+  background-color: #323232; }
+  .clock #clock_style {
+    font-size: 7vw; }
 
 /*
 .article{
   @include nomdumixins(red,500px);
 }
 */
+.cameras {
+  display: flex;
+  width: 100%; }
+
+.camera01 {
+  width: 50%;
+  height: 90%;
+  background-color: grey; }
+  .camera01 .cam01 {
+    width: 100%;
+    height: 35%; }
+  .camera01 .hudA input {
+    width: 10vw; }
+  .camera01 .input_ {
+    padding-left: 10vw; }
+
+.camera02 {
+  width: 50%;
+  height: 50%;
+  background-color: grey; }
+  .camera02 .cam02 {
+    width: 100%;
+    height: 35%; }
+  .camera02 .hudB input {
+    width: 10vw; }
+  .camera02 .input_ {
+    padding-left: 10vw; }
+
 body {
-  background-color: #B3D5D6; }
+  background-color: #E26882; }
 
 /*
 h1{

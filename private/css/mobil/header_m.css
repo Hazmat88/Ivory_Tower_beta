@@ -15,34 +15,226 @@
     text-align: center;
     font-size: 3em;
     font-family: pantherregular, sans-serif;
-    background: linear-gradient(-330deg, #B3D5D6 0%, #B3D5D6 25%, #8677E0 50%, #F8C8D6 75%, #F8C8D6 100%);
+    background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 .clock {
-  width: 100vw;
+  width: 90vw;
   height: 18vw;
   background-color: #404040; }
   .clock #clock_style {
+    padding-top: 10px;
     width: auto;
     text-align: center;
-    font-size: 18vw;
+    font-size: 15vw;
     font-family: pantherregular, sans-serif;
-    background: linear-gradient(-330deg, #F8C8D6 0%, #F8C8D6 25%, #8677E0 50%, #B3D5D6 75%, #B3D5D6 100%);
+    background: linear-gradient(-330deg, #5E4A89 0%, #A7558F 25%, #FF8D6E 50%, #FFC061 75%, #F9F870 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 .controller {
   width: 100vw;
   height: 50px;
-  background-color: #CD5C5C; }
+  background-color: #E26882;
+  /*    animation: colorchange 100s linear infinite; /* animation-name followed by duration in seconds
+      -webkit-animation: colorchange 100s linear infinite; /* Chrome and Safari
+      -moz-animation: colorchange 100s linear infinite;
+      -o-animation: colorchange 100s linear infinite;
+*/ }
+  .controller .twoscreen {
+    width: 100px;
+    height: 50px;
+    background-color: #FFC061; }
+  .controller .ctrl2 {
+    /*margin-left:200px;
+    width:100px;
+    height: 100px;
+    background-color:$yellowS18 ;*/ }
 
 .nav {
   position: fixed;
-  top: 0px;
-  right: 0px;
-  width: 90px;
-  height: 90px;
-  background-color: #CD5C5C; }
+  top: 2.5vw;
+  right: 2.5vw;
+  width: 50px;
+  height: 50px;
+  background: url("../private/img/burger_icon.png") no-repeat center;
+  background-image: url("../img/burger_icon.svg");
+  background-size: contain; }
+
+.btncontroller {
+  position: fixed;
+  top: 120px;
+  right: 2vw;
+  width: 60px;
+  height: 60px;
+  background: url("../private/img/controller_icon.png") no-repeat center;
+  background-image: url("../img/controller_icon.svg");
+  background-size: contain; }
+
+@keyframes colorchange {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
+@-moz-keyframes colorchange /* Firefox */ {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
+@-o-keyframes colorchange /* Opera */ {
+  0%,100% {
+    background: #1abc9c; }
+  5% {
+    background: #2ecc71; }
+  10% {
+    background: #3498db; }
+  15% {
+    background: #9b59b6; }
+  20% {
+    background: #34495e; }
+  25% {
+    background: #16a085; }
+  30% {
+    background: #27ae60; }
+  35% {
+    background: #2980b9; }
+  40% {
+    background: #8e44ad; }
+  45% {
+    background: #2c3e50; }
+  50% {
+    background: #f1c40f; }
+  55% {
+    background: #e67e22; }
+  60% {
+    background: #e74c3c; }
+  65% {
+    background: #ecf0f1; }
+  70% {
+    background: #95a5a6; }
+  75% {
+    background: #f39c12; }
+  80% {
+    background: #d35400; }
+  85% {
+    background: #c0392b; }
+  90% {
+    background: #bdc3c7; }
+  95% {
+    background: #7f8c8d; } }
 
 /*# sourceMappingURL=header_m.css.map */

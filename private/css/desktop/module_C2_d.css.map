@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAUA;;;;EAIE",
-"sources": ["../../sass/var_colors/colors.scss"],
+"mappings": "AAUA;;;;EAIE;ACZF,QAAQ;EACN,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAAI;;AAEb,SAAS;EAEP,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,GAAG;EACV,gBAAgB,EAAE,IAAI;EAGlB,gBAAM;IACJ,KAAK,EAAE,IAAI;IACX,MAAM,EAAC,GAAG;EAKhB,qBAAK;IACH,KAAK,EAAE,IAAI;EAMb,iBAAO;IACL,YAAY,EAAE,IAAI;;AAOtB,SAAS;EAEP,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,GAAG;EACV,gBAAgB,EAAE,IAAI;EAGlB,gBAAM;IACJ,KAAK,EAAE,IAAI;IACX,MAAM,EAAC,GAAG;EAKV,qBAAK;IACH,KAAK,EAAE,IAAI;EAMb,iBAAO;IACL,YAAY,EAAE,IAAI",
+"sources": ["../../sass/var_colors/colors.scss","../../sass/desktop/module_C2_d.scss"],
 "names": [],
 "file": "module_C2_d.css"
 }

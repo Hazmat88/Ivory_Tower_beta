@@ -1,5 +1,7 @@
 <header>
-    <div>
+  <div>
+
+    <div class="head">
           <div class="date">
           <?php
             $date = strftime('%A %d %B %Y');
@@ -14,18 +16,31 @@
               <h1 id="clock_style"></h1>
             <!--  <h2 id="clock_scdmini"></h2> !--->
            </div>
-
+    </div>
            <div id="controller" class="controller">
               <h1 id="controller_style"></h1>
-              <div id="twoscreen" class="twoscreen" onclick="showhide_cam02();switch_twoscreen()">
+      <!-- TODO Display FLEX + DIV CLASS container -->
+              <div id="twoscreen" class="twoscreen" onclick="showhide_cam02();switch_twoscreen()"></div>
+
+              <div id="" class="ctrl2" onclick="showhide_cam02();switch_twoscreen()"></div>
+
+              <div id="" class="ctrl3" onclick="showhide_cam02();switch_twoscreen()"></div>
+
+              <div id="" class="ctrl4" onclick="showhide_cam02();switch_twoscreen()"></div>
 
               </div>
+
+
+           <div id="nav" class="nav" onclick="openNav()">
+
            </div>
 
-           <div id="nav" class="nav" onclick="openNav(); showhide_controller()">
+           <div id="btncontroller" class="btncontroller" onclick=" showhide_controller()">
 
            </div>
 
+
+  </div>
            <script>
              function showhide_controller(){
                var x = document.getElementById("controller");
@@ -41,19 +56,15 @@
                var y = document.getElementById("browser_video");
                 if (x.style.display === "none") {
                   x.style.display = "block";
-                  y.style.height = "40vw";
+                //  y.style.height = "40vw";
                 } else {
                   x.style.display = "none";
-                  y.style.height = "60vw";
+              //    y.style.height = "60vw";
                 }
              }
-
-
-
-
            </script>
 
-      </div>
+
 
     <?php include "private/sections/sidenav.php"; ?>
 </header>

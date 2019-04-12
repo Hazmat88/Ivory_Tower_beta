@@ -1,8 +1,28 @@
 @import "../imports.scss";
 
+.head{
+  display :flex;
+  width: 100%;
+}
 
 .date{
-  width:60vw;
-  height:20vw;
+
+  width:50%;
+  height:auto;
   background-color: $bgcA;
+  .date_style{
+    margin-right:0px;
+
+  }
+}
+
+.clock{
+
+  width:50%;
+  height:auto;
+
+  background-color: $blackB;
+  #clock_style{
+    font-size: 7vw;
+  }
 }
