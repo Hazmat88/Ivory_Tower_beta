@@ -5,6 +5,7 @@ init ();
 function init(){
   clock();
   input();
+
 }
 
 // FUNCTION INPUT VALIDATION BY KEYBOARD
@@ -40,8 +41,8 @@ function clock() {
 
 
 //FUNCTION IP ADRESS + HUD LINK TO DASHBOARD APP Into NEW TAB
-function hud_switch(hudx,hudX,titleX,linktitles,ipadX) {
-  ipadress(linktitles,ipadX);
+function hud_switch(hudx,hudX,titleX,linktitleX,ipadX) {
+  ipadress(ipadX,linktitleX);
   hud_link(hudx,hudX,titleX);
 }
 
@@ -66,11 +67,12 @@ function hud_switch(hudx,hudX,titleX,linktitles,ipadX) {
       //document.getElementById("audio").src="http://192.168.1." + adressip + ":8080/video";
 }
 */
-//FUNCTION IP ADRESS Abstration ex:paramater fot link titleA "link_titleA"
-function ipadress(ipadd,linktitle) {
+//FUNCTION IP ADRESS Abstration ex:paramater fot link titleA "link_titleA" Abstract in progress
+function ipadress(ipaddi,linktitle) {
   //Variables
     var name = document.getElementById("name").value;
-    var adressip =  document.getElementById(ipadd).value;
+
+    var adressip =  document.getElementById(ipaddi).value;
     var fulladdressip = "192.168." + adressip + ":8080";
     var linktitleA = name +" "+fulladdressip ;
   //Verification console.log
@@ -78,7 +80,9 @@ function ipadress(ipadd,linktitle) {
     console.log(adressip);
   //Changement/Effects of transformations
     document.getElementById("browser_video").src="http://192.168." + adressip + ":8080/video";
+   // document.getElementsByClassName(cami).src="http://192.168." + adressip + ":8080/video";
   // Links Titles
+   
     document.getElementById(linktitle).href="http://192.168." + adressip + ":8080";
     document.getElementById(linktitle).innerHTML = linktitleA;
     document.getElementById(linktitle).style.fontWeight = "900";
@@ -97,7 +101,7 @@ function ipadress(ipadd,linktitle) {
     hud.setAttribute("class", titlei);
   }
 }*/
-
+// HUD_LINK Function ABSTRACT
 function hud_link(hudi,hudI,titleI) {
   var hud = document.getElementById(hudi);
 
@@ -105,7 +109,7 @@ function hud_link(hudi,hudI,titleI) {
     hud.setAttribute("class", titleI);
 
   }else {
-    hud.setAttribute("class", titleI);
+    hud.setAttribute("class", hudI);
   }
 }
 

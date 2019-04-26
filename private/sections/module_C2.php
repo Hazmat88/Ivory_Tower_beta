@@ -22,7 +22,7 @@
                 <div class="frame_titleA">
                     <a id="link_titleA" href="http://192.168.1.27:8080" target="_blank" >Name + IP ADRESS</a>
                     <!-- BUTTON SWITCH Hud/title -->
-                    <div class="button_switch_hud" onclick="hud_link('huda,hudA,titleA')"></div>
+                    <div class="button_switch_hud" onclick="hud_link('huda','hudA','titleA')"></div>
                 </div>
 
             </div>
@@ -30,7 +30,7 @@
 <!--*******************************************************************
 ********************** FLUX A **************************************************************** -->
             <div id="fluxa" class="flux_A">
-                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.27:8080/video">
+                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.36:8080/video">
             </div>
 
 <!--*******************************************************************
@@ -70,7 +70,7 @@
             <button id="subhda" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB')">DONE</button>
       </div>
 
-<!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
+<!--********** HUDA SWITCHED ELEMENTS DONE TITLEB *************-->
             <div class="frame_titleB">
                 <a id="link_titleB" href="http://192.168.1.37:8080" target="_blank" >Name + IP ADRESS</a>
 
@@ -82,7 +82,7 @@
 <!--*******************************************************************
 ********************** FLUX A **************************************************************** -->
         <div class="flux_B">
-            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.37:8080/video">
+            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.36:8080/video">
         </div>
 
 <!--*******************************************************************
@@ -95,7 +95,7 @@
         </div>
 -->
         <div id="audio_pane">
-              <audio id="html5_audio" controls=""><source id="audio" src="http://192.168.1.37:8080/audio.wav" type="audio/wav"></audio>
+              <audio id="html5_audio" controls=""><source id="audio" src="http://192.168.1.36:8080/audio.wav" type="audio/wav"></audio>
           </div>
 
   </div>
