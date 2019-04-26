@@ -11,16 +11,16 @@
 
                 <input type="text" id="dropdown_BD" placeholder="Data Base">
 
-                <input type="text" id="name" placeholder="Device Name">
+                <input type="text" id="nameA" placeholder="Device Name">
 
                 <input type="text" id="ipaddA" placeholder="Just Device Number IP" >
 
-                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA')">DONE</button>
+                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA')">DONE</button>
             </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
                 <div class="frame_titleA">
-                    <a id="link_titleA" href="http://192.168.1.27:8080" target="_blank" >Name + IP ADRESS</a>
+                    <a id="link_titleA" href="http://192.168.1.36:8080" target="_blank" >Name + IP ADRESS</a>
                     <!-- BUTTON SWITCH Hud/title -->
                     <div class="button_switch_hud" onclick="hud_link('huda','hudA','titleA')"></div>
                 </div>
@@ -63,16 +63,16 @@
 
             <input type="text" id="dropdown_BD" placeholder="Data Base">
 
-            <input type="text" id="name" placeholder="Device Name">
+            <input type="text" id="nameB" placeholder="Device Name">
 
             <input type="text" id='ipaddB' placeholder="Just Device Number IP" >
 
-            <button id="subhda" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB')">DONE</button>
+            <button id="subhdb" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB','nameB')">DONE</button>
       </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEB *************-->
             <div class="frame_titleB">
-                <a id="link_titleB" href="http://192.168.1.37:8080" target="_blank" >Name + IP ADRESS</a>
+                <a id="link_titleB" href="http://192.168.1.36:8080" target="_blank" >Name + IP ADRESS</a>
 
                 <div class="button_switch_hud" onclick="hud_link('hudb','hudB','titleB')"></div>
             </div>
@@ -80,7 +80,7 @@
         </div>
 
 <!--*******************************************************************
-********************** FLUX A **************************************************************** -->
+********************** FLUX B **************************************************************** -->
         <div class="flux_B">
             <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.36:8080/video">
         </div>

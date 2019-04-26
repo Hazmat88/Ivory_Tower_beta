@@ -4,19 +4,22 @@ init ();
 // CLOCK SYSTEM
 function init(){
   clock();
-  input();
-
+  showhide_controller()
+  input('ipaddA','subhda');
+  input('ipaddB','subhdb');
+  input('nameA','subhda');
+  input('nameB','subhdb');
 }
 
 // FUNCTION INPUT VALIDATION BY KEYBOARD
-function input() {
-  var input = document.getElementById("ipadd");
+function input(buttonid,buttonvalid) {
+  var input = document.getElementById(buttonid);
 
   input.addEventListener("keyup", function(event) {
 
           if (event.keyCode === 13) {
               event.preventDefault();
-              document.getElementById("subhda").click();
+              document.getElementById(buttonvalid).click();
           }
   });
 }
@@ -41,36 +44,15 @@ function clock() {
 
 
 //FUNCTION IP ADRESS + HUD LINK TO DASHBOARD APP Into NEW TAB
-function hud_switch(hudx,hudX,titleX,linktitleX,ipadX) {
-  ipadress(ipadX,linktitleX);
+function hud_switch(hudx,hudX,titleX,linktitleX,ipadX,nameX) {
+  ipadress(ipadX,linktitleX,nameX);
   hud_link(hudx,hudX,titleX);
 }
 
-
-//FUNCTION IP ADRESS 
-/*function ipadress() {
-    //Variables
-      var name = document.getElementById("name").value;
-      var adressip =  document.getElementById("ipadd").value;
-      var fulladdressip = "192.168." + adressip + ":8080";
-      var linktitleA = name +" "+fulladdressip ;
-    //Verification console.log
-      console.log(fulladdressip);
-      console.log(adressip);
-    //Changement/Effects of transformations
-      document.getElementById("browser_video").src="http://192.168." + adressip + ":8080/video";
-    // Links Titles
-      document.getElementById("link_titleA").href="http://192.168." + adressip + ":8080";
-      document.getElementById("link_titleA").innerHTML = linktitleA;
-      document.getElementById("link_titleA").style.fontWeight = "900";
-
-      //document.getElementById("audio").src="http://192.168.1." + adressip + ":8080/video";
-}
-*/
 //FUNCTION IP ADRESS Abstration ex:paramater fot link titleA "link_titleA" Abstract in progress
-function ipadress(ipaddi,linktitle) {
+function ipadress(ipaddi,linktitle,nameI) {
   //Variables
-    var name = document.getElementById("name").value;
+    var name = document.getElementById(nameI).value;
 
     var adressip =  document.getElementById(ipaddi).value;
     var fulladdressip = "192.168." + adressip + ":8080";
@@ -78,11 +60,14 @@ function ipadress(ipaddi,linktitle) {
   //Verification console.log
     console.log(fulladdressip);
     console.log(adressip);
+
   //Changement/Effects of transformations
     document.getElementById("browser_video").src="http://192.168." + adressip + ":8080/video";
-   // document.getElementsByClassName(cami).src="http://192.168." + adressip + ":8080/video";
+    //TRY Bypass ID Element browser_video commun to all Flux Video Cameras
+    //document.getElementsByClassName("fluxA").src="http://192.168." + adressip + ":8080/video";
+    //document.getElementsByClassName("cam01").setAttribute(src, "http://192.168." + adressip + ":8080/video");
+
   // Links Titles
-   
     document.getElementById(linktitle).href="http://192.168." + adressip + ":8080";
     document.getElementById(linktitle).innerHTML = linktitleA;
     document.getElementById(linktitle).style.fontWeight = "900";
@@ -90,17 +75,7 @@ function ipadress(ipaddi,linktitle) {
     //document.getElementById("audio").src="http://192.168.1." + adressip + ":8080/video";
 }
 
-// FUNCTION SWITCH HUD INTO LINK NAME IN NEW TAB DASHBOARD
-/*function hud_link(hudi,titlei) {
-  var hud = document.getElementById(hudi);
 
-  if ( hud.className === hudi) {
-    hud.setAttribute("class", titlei);
-
-  }else {
-    hud.setAttribute("class", titlei);
-  }
-}*/
 // HUD_LINK Function ABSTRACT
 function hud_link(hudi,hudI,titleI) {
   var hud = document.getElementById(hudi);
