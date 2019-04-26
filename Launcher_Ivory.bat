@@ -27,6 +27,7 @@ cd %Path_wamp% && start /b wampserver64
 
 ::Pour un project sur un autre ordi utiliser uliser la ligne avec le chemin relative ne pas oublier de definir la variable au début du script
 cd C:\Users\%username%\Google Drive\Web_dev_GD\
+:: cd C:\Users\%username%\Desktop\Web_Dev\Ivory_Tower_beta
 :: cd %Path_dev%
 
 ::start /b %dev_file%

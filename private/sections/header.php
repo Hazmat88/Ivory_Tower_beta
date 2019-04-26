@@ -42,26 +42,7 @@
 
   </div>
            <script>
-             function showhide_controller(){
-               var x = document.getElementById("controller");
-                if (x.style.display === "none") {
-                  x.style.display = "block";
-                } else {
-                  x.style.display = "none";
-                }
-             }
-
-             function showhide_cam02(){
-               var x = document.getElementById("camera02");
-               var y = document.getElementById("browser_video");
-                if (x.style.display === "none") {
-                  x.style.display = "block";
-                //  y.style.height = "40vw";
-                } else {
-                  x.style.display = "none";
-              //    y.style.height = "60vw";
-                }
-             }
+            
            </script>
 
 

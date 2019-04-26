@@ -13,16 +13,16 @@
 
                 <input type="text" id="name" placeholder="Device Name">
 
-                <input type="text" id="ipadd" placeholder="Just Device Number IP" >
+                <input type="text" id="ipaddA" placeholder="Just Device Number IP" >
 
-                <button id="subhda" onclick="hud_switch()">DONE</button>
+                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA')">DONE</button>
             </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
                 <div class="frame_titleA">
                     <a id="link_titleA" href="http://192.168.1.27:8080" target="_blank" >Name + IP ADRESS</a>
-
-                    <div class="button_switch_hud" onclick="hud_link()"></div>
+                    <!-- BUTTON SWITCH Hud/title -->
+                    <div class="button_switch_hud" onclick="hud_link('huda,hudA,titleA')"></div>
                 </div>
 
             </div>
@@ -65,16 +65,16 @@
 
             <input type="text" id="name" placeholder="Device Name">
 
-            <input type="text" id="ipadd" placeholder="Just Device Number IP" >
+            <input type="text" id='ipaddB' placeholder="Just Device Number IP" >
 
-            <button id="subhda" onclick="hud_switch()">DONE</button>
+            <button id="subhda" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB')">DONE</button>
       </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
             <div class="frame_titleB">
                 <a id="link_titleB" href="http://192.168.1.37:8080" target="_blank" >Name + IP ADRESS</a>
 
-                <div class="button_switch_hud" onclick="hud_link()"></div>
+                <div class="button_switch_hud" onclick="hud_link('hudb','hudB','titleB')"></div>
             </div>
 
         </div>

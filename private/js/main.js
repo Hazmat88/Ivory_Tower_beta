@@ -40,42 +40,107 @@ function clock() {
 
 
 //FUNCTION IP ADRESS + HUD LINK TO DASHBOARD APP Into NEW TAB
-function hud_switch() {
-  ipadress();
-  hud_link();
+function hud_switch(hudx,hudX,titleX,linktitles,ipadX) {
+  ipadress(linktitles,ipadX);
+  hud_link(hudx,hudX,titleX);
 }
 
 
-//FUNCTION IP ADRESS
-function ipadress() {
-      var adressip =  document.getElementById("ipadd").value;
-      console.log(adressip);
-
-      var fulladdressip = "192.168.1." + adressip + ":8080";
-      console.log(fulladdressip);
+//FUNCTION IP ADRESS 
+/*function ipadress() {
+    //Variables
       var name = document.getElementById("name").value;
-
+      var adressip =  document.getElementById("ipadd").value;
+      var fulladdressip = "192.168." + adressip + ":8080";
       var linktitleA = name +" "+fulladdressip ;
-
-
-      document.getElementById("browser_video").src="http://192.168.1." + adressip + ":8080/video";
-
-      document.getElementById("link_titleA").href="http://192.168.1." + adressip + ":8080";
-
+    //Verification console.log
+      console.log(fulladdressip);
+      console.log(adressip);
+    //Changement/Effects of transformations
+      document.getElementById("browser_video").src="http://192.168." + adressip + ":8080/video";
+    // Links Titles
+      document.getElementById("link_titleA").href="http://192.168." + adressip + ":8080";
       document.getElementById("link_titleA").innerHTML = linktitleA;
       document.getElementById("link_titleA").style.fontWeight = "900";
 
       //document.getElementById("audio").src="http://192.168.1." + adressip + ":8080/video";
 }
+*/
+//FUNCTION IP ADRESS Abstration ex:paramater fot link titleA "link_titleA"
+function ipadress(ipadd,linktitle) {
+  //Variables
+    var name = document.getElementById("name").value;
+    var adressip =  document.getElementById(ipadd).value;
+    var fulladdressip = "192.168." + adressip + ":8080";
+    var linktitleA = name +" "+fulladdressip ;
+  //Verification console.log
+    console.log(fulladdressip);
+    console.log(adressip);
+  //Changement/Effects of transformations
+    document.getElementById("browser_video").src="http://192.168." + adressip + ":8080/video";
+  // Links Titles
+    document.getElementById(linktitle).href="http://192.168." + adressip + ":8080";
+    document.getElementById(linktitle).innerHTML = linktitleA;
+    document.getElementById(linktitle).style.fontWeight = "900";
+
+    //document.getElementById("audio").src="http://192.168.1." + adressip + ":8080/video";
+}
 
 // FUNCTION SWITCH HUD INTO LINK NAME IN NEW TAB DASHBOARD
-function hud_link() {
-  var hud = document.getElementById("huda");
+/*function hud_link(hudi,titlei) {
+  var hud = document.getElementById(hudi);
 
-  if ( hud.className === "hudA") {
-    hud.setAttribute("class", "titleA");
+  if ( hud.className === hudi) {
+    hud.setAttribute("class", titlei);
 
   }else {
-    hud.setAttribute("class", "hudA");
+    hud.setAttribute("class", titlei);
   }
+}*/
+
+function hud_link(hudi,hudI,titleI) {
+  var hud = document.getElementById(hudi);
+
+  if ( hud.className === hudI) {
+    hud.setAttribute("class", titleI);
+
+  }else {
+    hud.setAttribute("class", titleI);
+  }
+}
+
+// SIDENAV
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+//CONTROLLER BAR
+
+function showhide_controller(){
+  var x = document.getElementById("controller");
+   if (x.style.display === "none") {
+     x.style.display = "block";
+   } else {
+     x.style.display = "none";
+   }
+}
+
+function showhide_cam02(){
+  var x = document.getElementById("camera02");
+  var y = document.getElementById("browser_video");
+   if (x.style.display === "none") {
+     x.style.display = "block";
+   //  y.style.height = "40vw";
+   } else {
+     x.style.display = "none";
+ //    y.style.height = "60vw";
+   }
 }
