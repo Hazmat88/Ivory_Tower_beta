@@ -112,14 +112,22 @@ function showhide_controller(){
    }
 }
 
+// In PROGRESS FOR DESKTOP MODE OK BUT NOT CLEAN BECAUSE unit it's vw & % here than the css file only % Need two different effect if in desktop mode or Mobile By default Mobile Landscape 2 screen its ok 
 function showhide_cam02(){
-  var x = document.getElementById("camera02");
+  var cam2 = document.getElementById("camera02");
+  var cam1 = document.getElementById("camera01");
   var y = document.getElementById("browser_video");
-   if (x.style.display === "none") {
-     x.style.display = "block";
-   //  y.style.height = "40vw";
+   if (cam2.style.display === "none") {
+     cam2.style.display = "block";
+     cam1.style.width = "50%";
+     cam1.style.height = "50%";
+     y.style.height = "50%";
+     y.style.width = "50vw";
    } else {
-     x.style.display = "none";
- //    y.style.height = "60vw";
+     cam2.style.display = "none";
+     cam1.style.width = "100%";
+     //cam1.style.height = "30vw"
+     y.style.width = "100vw";
+     y.style.height = "40vw";
    }
 }

@@ -36,16 +36,16 @@
 <!--*******************************************************************
 ********************** CONTROLLERS FLUX A **************************************************************** -->
 <!--
-
+bad
             <div class="control_A">
                 <canvas class="flot-overlay" width="750" height="600" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 750px; height: 600px;"></canvas>
                  style="margin: auto; display: table;"
             </div>
--->
+Good
             <div id="audio_pane">
                   <audio id="html5_audio" controls=""><source id="audio" src="http://192.168.1.37:8080/audio.wav" type="audio/wav"></audio>
               </div>
-
+-->
       </div>
 
 
@@ -88,16 +88,16 @@
 <!--*******************************************************************
 ********************** CONTROLLERS FLUX A **************************************************************** -->
 <!--
-
+bad
         <div class="control_A">
             <canvas class="flot-overlay" width="750" height="600" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 750px; height: 600px;"></canvas>
              style="margin: auto; display: table;"
         </div>
--->
+good
         <div id="audio_pane">
               <audio id="html5_audio" controls=""><source id="audio" src="http://192.168.1.36:8080/audio.wav" type="audio/wav"></audio>
           </div>
-
+-->
   </div>
 
 

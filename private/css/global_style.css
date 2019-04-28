@@ -78,12 +78,7 @@ table {
 .controller {
   width: 100vw;
   height: 50px;
-  background-color: #E26882;
-  /*    animation: colorchange 100s linear infinite; /* animation-name followed by duration in seconds
-      -webkit-animation: colorchange 100s linear infinite; /* Chrome and Safari
-      -moz-animation: colorchange 100s linear infinite;
-      -o-animation: colorchange 100s linear infinite;
-*/ }
+  background-color: #E26882; }
   .controller .twoscreen {
     width: 100px;
     height: 50px;
@@ -96,188 +91,26 @@ table {
 
 .nav {
   position: fixed;
-  top: 2.5vw;
-  right: 2.5vw;
-  width: 50px;
-  height: 50px;
+  top: 2vw;
+  right: 2vw;
+  width: 30px;
+  height: 30px;
   background: url("../private/img/burger_icon.png") no-repeat center;
   background-image: url("../img/burger_icon.svg");
-  background-size: contain; }
+  background-size: contain;
+  opacity: 0.7; }
 
 .btncontroller {
   position: fixed;
-  top: 120px;
+  top: 80px;
   right: 2vw;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background: url("../private/img/controller_icon.png") no-repeat center;
   background-image: url("../img/controller_icon.svg");
-  background-size: contain; }
+  background-size: contain;
+  opacity: 0.7; }
 
-@keyframes colorchange {
-  0%,100% {
-    background: #1abc9c; }
-  5% {
-    background: #2ecc71; }
-  10% {
-    background: #3498db; }
-  15% {
-    background: #9b59b6; }
-  20% {
-    background: #34495e; }
-  25% {
-    background: #16a085; }
-  30% {
-    background: #27ae60; }
-  35% {
-    background: #2980b9; }
-  40% {
-    background: #8e44ad; }
-  45% {
-    background: #2c3e50; }
-  50% {
-    background: #f1c40f; }
-  55% {
-    background: #e67e22; }
-  60% {
-    background: #e74c3c; }
-  65% {
-    background: #ecf0f1; }
-  70% {
-    background: #95a5a6; }
-  75% {
-    background: #f39c12; }
-  80% {
-    background: #d35400; }
-  85% {
-    background: #c0392b; }
-  90% {
-    background: #bdc3c7; }
-  95% {
-    background: #7f8c8d; } }
-@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
-  0%,100% {
-    background: #1abc9c; }
-  5% {
-    background: #2ecc71; }
-  10% {
-    background: #3498db; }
-  15% {
-    background: #9b59b6; }
-  20% {
-    background: #34495e; }
-  25% {
-    background: #16a085; }
-  30% {
-    background: #27ae60; }
-  35% {
-    background: #2980b9; }
-  40% {
-    background: #8e44ad; }
-  45% {
-    background: #2c3e50; }
-  50% {
-    background: #f1c40f; }
-  55% {
-    background: #e67e22; }
-  60% {
-    background: #e74c3c; }
-  65% {
-    background: #ecf0f1; }
-  70% {
-    background: #95a5a6; }
-  75% {
-    background: #f39c12; }
-  80% {
-    background: #d35400; }
-  85% {
-    background: #c0392b; }
-  90% {
-    background: #bdc3c7; }
-  95% {
-    background: #7f8c8d; } }
-@-moz-keyframes colorchange /* Firefox */ {
-  0%,100% {
-    background: #1abc9c; }
-  5% {
-    background: #2ecc71; }
-  10% {
-    background: #3498db; }
-  15% {
-    background: #9b59b6; }
-  20% {
-    background: #34495e; }
-  25% {
-    background: #16a085; }
-  30% {
-    background: #27ae60; }
-  35% {
-    background: #2980b9; }
-  40% {
-    background: #8e44ad; }
-  45% {
-    background: #2c3e50; }
-  50% {
-    background: #f1c40f; }
-  55% {
-    background: #e67e22; }
-  60% {
-    background: #e74c3c; }
-  65% {
-    background: #ecf0f1; }
-  70% {
-    background: #95a5a6; }
-  75% {
-    background: #f39c12; }
-  80% {
-    background: #d35400; }
-  85% {
-    background: #c0392b; }
-  90% {
-    background: #bdc3c7; }
-  95% {
-    background: #7f8c8d; } }
-@-o-keyframes colorchange /* Opera */ {
-  0%,100% {
-    background: #1abc9c; }
-  5% {
-    background: #2ecc71; }
-  10% {
-    background: #3498db; }
-  15% {
-    background: #9b59b6; }
-  20% {
-    background: #34495e; }
-  25% {
-    background: #16a085; }
-  30% {
-    background: #27ae60; }
-  35% {
-    background: #2980b9; }
-  40% {
-    background: #8e44ad; }
-  45% {
-    background: #2c3e50; }
-  50% {
-    background: #f1c40f; }
-  55% {
-    background: #e67e22; }
-  60% {
-    background: #e74c3c; }
-  65% {
-    background: #ecf0f1; }
-  70% {
-    background: #95a5a6; }
-  75% {
-    background: #f39c12; }
-  80% {
-    background: #d35400; }
-  85% {
-    background: #c0392b; }
-  90% {
-    background: #bdc3c7; }
-  95% {
-    background: #7f8c8d; } }
 /*
 .article{
   @include nomdumixins(red,500px);
