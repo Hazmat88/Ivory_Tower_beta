@@ -10,7 +10,7 @@
 */
 .date {
   width: 100vw;
-  height: 15vw;
+  height: auto;
   background-color: #323232;
   padding-bottom: 20px;
   /*
@@ -28,17 +28,18 @@
   
   }*/ }
   .date .date_style {
-    display: none; }
-  .date .short_date {
     display: block;
-    margin-right: 0px;
-    padding-top: 5vw;
+    margin-right: 15vw;
+    padding-top: 3vw;
     width: auto;
-    font-size: 13vw;
+    text-align: center;
+    font-size: 3em;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+  .date .short_date {
+    display: none; }
 
 .clock {
   width: 90vw;
@@ -51,7 +52,6 @@
     font-size: 15vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #5E4A89 0%, #A7558F 25%, #FF8D6E 50%, #FFC061 75%, #F9F870 100%);
-    text-align: left;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
@@ -71,10 +71,10 @@
 
 .nav {
   position: fixed;
-  top: 5vw;
-  right: 5vw;
-  width: 45px;
-  height: 45px;
+  top: 12vw;
+  right: 3vw;
+  width: 100px;
+  height: 100px;
   background: url("../private/img/burger_icon.png") no-repeat center;
   background-image: url("../img/burger_icon.svg");
   background-size: contain;

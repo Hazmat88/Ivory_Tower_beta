@@ -5,7 +5,7 @@
 .date{
   width:100vw;
 //  height:auto;
-  height:15vw;
+  height:auto;
   background-color: $blackB;
   padding-bottom:20px;
 /*
@@ -22,18 +22,21 @@
   -webkit-text-fill-color: transparent;
 
 }*/
-  .date_style{display:none;}
-  .short_date{
-    display:block;
-    margin-right:0px;
-    padding-top: 5vw;
-    width:auto;
+  .date_style{
 
-    font-size: 13vw;
+    display: block;
+    margin-right:15vw;
+    padding-top: 3vw;
+    width:auto;
+    text-align:center;
+    font-size: 3em;
     font-family:pantherregular, sans-serif;
       background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+  .short_date{ display:none;}
 }
 
 
@@ -51,7 +54,7 @@
         font-size:15vw;
         font-family:pantherregular, sans-serif;
         background: linear-gradient(-330deg, $purpleS18  0%, $magentaS18 25%, $orangeS18 50%, $orangelightS18  75%,$yellowS18 100%);
-        text-align: left;
+
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       }
@@ -86,10 +89,10 @@
 
 .nav{
    position:fixed;
-   top:5vw;
-   right:5vw;
-   width: 45px;
-   height:45px;
+   top:12vw;
+   right:3vw;
+   width: 100px;
+   height:100px;
    //background-color:$build ;
    background: url("../private/img/burger_icon.png") no-repeat center;//fallback
    background-image: url('../img/burger_icon.svg');
