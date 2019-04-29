@@ -23,6 +23,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
+.clock #clock_style {
+  text-align: left; }
+
 .nav {
   top: 5vw;
   right: 5vw;

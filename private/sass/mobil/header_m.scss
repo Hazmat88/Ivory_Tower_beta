@@ -4,10 +4,11 @@
 
 .date{
   width:100vw;
-  height:auto;
+//  height:auto;
+  height:15vw;
   background-color: $blackB;
   padding-bottom:20px;
-
+/*
   .date_style{
     display: block;
     margin-right:15vw;
@@ -20,9 +21,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  }
+}*/
+  .date_style{display:none;}
+  .short_date{
+    display:block;
+    margin-right:0px;
+    padding-top: 5vw;
+    width:auto;
 
-  .short_date{display:none;}
+    font-size: 13vw;
+    font-family:pantherregular, sans-serif;
+      background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
 }
 
 
@@ -40,7 +51,7 @@
         font-size:15vw;
         font-family:pantherregular, sans-serif;
         background: linear-gradient(-330deg, $purpleS18  0%, $magentaS18 25%, $orangeS18 50%, $orangelightS18  75%,$yellowS18 100%);
-
+        text-align: left;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       }
@@ -75,10 +86,10 @@
 
 .nav{
    position:fixed;
-   top:2vw;
-   right:2vw;
-   width:30px;
-   height:30px;
+   top:5vw;
+   right:5vw;
+   width: 45px;
+   height:45px;
    //background-color:$build ;
    background: url("../private/img/burger_icon.png") no-repeat center;//fallback
    background-image: url('../img/burger_icon.svg');
@@ -87,7 +98,7 @@
 }
 
 .btncontroller{
-  position:fixed;
+/*  position:fixed;
   top:80px;
   right:2vw;
  width:30px;
@@ -96,5 +107,5 @@
  background: url("../private/img/controller_icon.png") no-repeat center;//fallback
  background-image: url('../img/controller_icon.svg');
  background-size: contain;
- opacity:0.7;
+ opacity:0.7;*/
 }

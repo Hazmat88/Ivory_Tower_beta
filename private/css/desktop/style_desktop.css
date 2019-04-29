@@ -22,14 +22,30 @@
   height: auto;
   background-color: #404040; }
   .date .date_style {
-    margin-right: 0px; }
+    margin-right: 0px;
+    display: block;
+    padding-top: 3vw;
+    width: auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .date .short_date {
+    display: none; }
 
 .clock {
   width: 50%;
   height: auto;
   background-color: #323232; }
   .clock #clock_style {
-    font-size: 7vw; }
+    font-size: 7vw;
+    text-align: center; }
+
+.nav {
+  top: 2vw;
+  right: 2vw; }
 
 /*
 .article{
