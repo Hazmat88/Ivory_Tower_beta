@@ -5,9 +5,11 @@
           <div class="date">
           <?php
             $date = strftime('%A %d %B %Y');
+            $date_short = strftime('%d/%m/%y' );
             $heure = date("H:i:s");
 
             echo "<h2 class='date_style'>$date</h2>";
+            echo "<h2 class='short_date'>$date_short</h2>";
            ?>
            </div>
 
@@ -41,7 +43,7 @@
 
 
   </div>
-        
+
 
 
 

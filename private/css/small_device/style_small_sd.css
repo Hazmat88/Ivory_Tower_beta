@@ -1,0 +1,35 @@
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.date {
+  height: 15vw; }
+  .date .date_style {
+    display: none; }
+  .date .short_date {
+    display: block;
+    margin-right: 0px;
+    padding-top: 5vw;
+    width: auto;
+    font-size: 13vw;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.nav {
+  top: 5vw;
+  right: 5vw;
+  width: 45px;
+  height: 45px; }
+
+.btncontroller {
+  display: none; }
+
+/*# sourceMappingURL=style_small_sd.css.map */

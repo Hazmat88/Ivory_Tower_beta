@@ -9,11 +9,16 @@
 
 @import "mobil/style_mobil.scss";
 
+//Small Device like Smartphone
+@media screen and (max-width:640px){
+  @import "small_device/style_small_sd.scss";
+}
 
 //IMPORT DESKTOP STYLE on Condition scree-size
 @media screen and (min-width: 1050px){
     @import  "desktop/style_desktop.scss";
 }
+
 
 
 @font-face {

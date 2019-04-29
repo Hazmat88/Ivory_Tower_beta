@@ -5,25 +5,20 @@
 */
 .head {
   display: flex;
-  width: 100%;
-}
+  width: 100%; }
 
 .date {
   width: 50%;
   height: auto;
-  background-color: #404040;
-}
-.date .date_style {
-  margin-right: 0px;
-}
+  background-color: #404040; }
+  .date .date_style {
+    margin-right: 0px; }
 
 .clock {
   width: 50%;
   height: auto;
-  background-color: #323232;
-}
-.clock #clock_style {
-  font-size: 7vw;
-}
+  background-color: #323232; }
+  .clock #clock_style {
+    font-size: 7vw; }
 
 /*# sourceMappingURL=header_d.css.map */
