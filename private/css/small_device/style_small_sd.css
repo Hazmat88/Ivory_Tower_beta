@@ -30,4 +30,37 @@
   top: 2.5vw;
   right: 2.5vw; }
 
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/*
+
+.titleA{
+
+  a{
+
+    font-size: 9vw;
+  }
+}*/
+.camera01 .titleA a {
+  text-align: center; }
+
+.camera02 .titleB a {
+  text-align: center; }
+
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.sidenav .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 2vw;
+  font-size: 80px;
+  margin-left: 50px;
+  color: #FFC061; }
+
 /*# sourceMappingURL=style_small_sd.css.map */

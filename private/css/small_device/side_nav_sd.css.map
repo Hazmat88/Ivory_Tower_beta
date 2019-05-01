@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUA;;;;EAIE;ACZF,kBAAmB;EACjB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,KAAK;EACV,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EDgDS,OAAO",
+"sources": ["../../sass/var_colors/colors.scss","../../sass/small_device/side_nav_sd.scss"],
+"names": [],
+"file": "side_nav_sd.css"
+}

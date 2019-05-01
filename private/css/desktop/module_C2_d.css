@@ -17,6 +17,8 @@
   .camera01 .hudA {
     display: block;
     width: auto; }
+  .camera01 .titleA a {
+    text-align: center; }
   .camera01 .input_ {
     padding-left: 5%; }
 
@@ -31,6 +33,8 @@
   .camera02 .hudB {
     display: block;
     width: auto; }
+  .camera02 .titleB a {
+    text-align: center; }
   .camera02 .input_ {
     padding-left: 5%; }
 

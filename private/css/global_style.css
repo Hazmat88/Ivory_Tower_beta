@@ -49,15 +49,15 @@ table {
   width: 100%;
   height: auto;
   background-color: #323232;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
   .date .date_style {
     display: none; }
   .date .short_date {
     display: block;
     margin-right: 0px;
-    padding-top: 5vw;
+    padding-top: 20px;
     width: auto;
-    font-size: 13vw;
+    font-size: 12.5vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
@@ -71,7 +71,7 @@ table {
     padding-top: 10px;
     width: auto;
     text-align: left;
-    font-size: 15vw;
+    font-size: 13vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #5E4A89 0%, #A7558F 25%, #FF8D6E 50%, #FFC061 75%, #F9F870 100%);
     -webkit-background-clip: text;
@@ -94,7 +94,7 @@ table {
 .nav {
   position: fixed;
   top: 5vw;
-  right: 5vw;
+  right: 10vw;
   width: 45px;
   height: 45px;
   background: url("../private/img/burger_icon.png") no-repeat center;
@@ -194,11 +194,11 @@ table {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: -10px;
-  right: 2vw;
-  font-size: 80px;
+  top: -1px;
+  right: 9vw;
+  font-size: 70px;
   margin-left: 50px;
-  color: #FFC061; }
+  color: #E26882; }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -238,7 +238,7 @@ table {
       display: none; }
     .camera01 .titleA a {
       padding-top: 10px;
-      text-align: center;
+      text-align: right;
       display: block !important;
       text-decoration: none;
       color: inherit;
@@ -285,7 +285,7 @@ table {
       display: none; }
     .camera02 .titleB a {
       padding-top: 10px;
-      text-align: center;
+      text-align: right;
       display: block !important;
       text-decoration: none;
       color: inherit;
@@ -339,7 +339,40 @@ body {
 
   .nav {
     top: 2.5vw;
-    right: 2.5vw; } }
+    right: 2.5vw; }
+
+  /*
+  .article{
+    @include nomdumixins(red,500px);
+  }
+  */
+  /*
+  
+  .titleA{
+  
+    a{
+  
+      font-size: 9vw;
+    }
+  }*/
+  .camera01 .titleA a {
+    text-align: center; }
+
+  .camera02 .titleB a {
+    text-align: center; }
+
+  /*
+  .article{
+    @include nomdumixins(red,500px);
+  }
+  */
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 2vw;
+    font-size: 80px;
+    margin-left: 50px;
+    color: #FFC061; } }
 @media screen and (min-width: 1050px) {
   /* Import variables
   @import "../var_colors/colors.scss";
@@ -411,6 +444,8 @@ body {
     .camera01 .hudA {
       display: block;
       width: auto; }
+    .camera01 .titleA a {
+      text-align: center; }
     .camera01 .input_ {
       padding-left: 5%; }
 
@@ -425,6 +460,8 @@ body {
     .camera02 .hudB {
       display: block;
       width: auto; }
+    .camera02 .titleB a {
+      text-align: center; }
     .camera02 .input_ {
       padding-left: 5%; }
 

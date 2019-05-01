@@ -7,16 +7,16 @@
   width:100%;
   height:auto;
   background-color: $blackB;
-  padding-bottom:20px;
+  padding-bottom:10px;
 
     .date_style{display:none;}
 
     .short_date{
             display:block;
             margin-right:0px;
-            padding-top: 5vw;
+            padding-top: 20px;
             width:auto;
-            font-size: 13vw;
+            font-size: 12.5vw;
             font-family:pantherregular, sans-serif;
               background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
             -webkit-background-clip: text;
@@ -38,7 +38,7 @@
         padding-top:10px;
         width:auto;
         text-align:left;
-        font-size:15vw;
+        font-size:13vw;
         font-family:pantherregular, sans-serif;
         background: linear-gradient(-330deg, $purpleS18  0%, $magentaS18 25%, $orangeS18 50%, $orangelightS18  75%,$yellowS18 100%);
         -webkit-background-clip: text;
@@ -76,7 +76,7 @@
 .nav{
    position:fixed;
    top:5vw;
-   right:5vw;
+   right:10vw;
    width: 45px;
    height:45px;
    //background-color:$build ;

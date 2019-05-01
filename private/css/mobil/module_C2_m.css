@@ -32,7 +32,7 @@
       display: none; }
     .camera01 .titleA a {
       padding-top: 10px;
-      text-align: center;
+      text-align: right;
       display: block !important;
       text-decoration: none;
       color: inherit;
@@ -79,7 +79,7 @@
       display: none; }
     .camera02 .titleB a {
       padding-top: 10px;
-      text-align: center;
+      text-align: right;
       display: block !important;
       text-decoration: none;
       color: inherit;

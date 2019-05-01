@@ -7,15 +7,15 @@
   width: 100%;
   height: auto;
   background-color: #323232;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
   .date .date_style {
     display: none; }
   .date .short_date {
     display: block;
     margin-right: 0px;
-    padding-top: 5vw;
+    padding-top: 20px;
     width: auto;
-    font-size: 13vw;
+    font-size: 12.5vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
@@ -29,7 +29,7 @@
     padding-top: 10px;
     width: auto;
     text-align: left;
-    font-size: 15vw;
+    font-size: 13vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #5E4A89 0%, #A7558F 25%, #FF8D6E 50%, #FFC061 75%, #F9F870 100%);
     -webkit-background-clip: text;
@@ -52,7 +52,7 @@
 .nav {
   position: fixed;
   top: 5vw;
-  right: 5vw;
+  right: 10vw;
   width: 45px;
   height: 45px;
   background: url("../private/img/burger_icon.png") no-repeat center;

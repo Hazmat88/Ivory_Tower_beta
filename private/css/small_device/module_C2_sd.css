@@ -1,3 +1,21 @@
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/*
 
+.titleA{
+
+  a{
+
+    font-size: 9vw;
+  }
+}*/
+.camera01 .titleA a {
+  text-align: center; }
+
+.camera02 .titleB a {
+  text-align: center; }
 
 /*# sourceMappingURL=module_C2_sd.css.map */
