@@ -157,9 +157,9 @@
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: -1px;
+  top: -5px;
   right: 9vw;
-  font-size: 70px;
+  font-size: 60px;
   margin-left: 50px;
   color: #E26882; }
 
@@ -252,7 +252,7 @@
       display: block !important;
       text-decoration: none;
       color: inherit;
-      font-size: 2em;
+      font-size: 1.5em;
       font-family: pantherregular, sans-serif; }
     .camera02 .titleB .button_switch_hud {
       display: block !important;
