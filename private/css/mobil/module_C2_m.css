@@ -33,7 +33,7 @@
     .camera01 .titleA a {
       margin-right: 10px;
       padding-top: 7px;
-      padding-bottom: 8px;
+      padding-bottom: 10px;
       text-align: right;
       display: block !important;
       text-decoration: none;
@@ -43,9 +43,9 @@
     .camera01 .titleA .button_switch_hud {
       display: block !important;
       float: left;
-      margin-top: -42px;
-      height: 37px;
-      width: 37px;
+      margin-top: -45px;
+      height: 40px;
+      width: 40px;
       background-color: #A7558F; }
   .camera01 #subhda {
     margin-top: 10px;
