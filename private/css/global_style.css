@@ -220,7 +220,7 @@ table {
     .camera01 .hudA a {
       display: none; }
     .camera01 .hudA input {
-      margin-top: 10px;
+      margin-top: 11px;
       width: 25%;
       height: 25px;
       border: none;
@@ -235,8 +235,8 @@ table {
       display: none; }
     .camera01 .titleA a {
       margin-right: 10px;
-      padding-top: 7px;
-      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 13px;
       text-align: right;
       display: block !important;
       text-decoration: none;
@@ -246,9 +246,9 @@ table {
     .camera01 .titleA .button_switch_hud {
       display: block !important;
       float: left;
-      margin-top: -45px;
-      height: 40px;
-      width: 40px;
+      margin-top: -50px;
+      height: 50px;
+      width: 45px;
       background-color: #A7558F; }
   .camera01 #subhda {
     margin-top: 10px;
@@ -263,7 +263,7 @@ table {
     background-color: grey; }
 
 .camera02 {
-  margin-top: 61vw;
+  margin-top: 59vw;
   width: 100%;
   height: 50px;
   background-color: #404040; }
