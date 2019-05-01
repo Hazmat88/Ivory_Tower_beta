@@ -18,7 +18,7 @@
     padding-top: 2vw;
     width:auto;
     text-align:center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family:pantherregular, sans-serif;
       background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
   -webkit-background-clip: text;
@@ -36,13 +36,14 @@
 
   background-color: $blackB;
   #clock_style{
-    font-size: 6vw;
+
+    font-size: 5vw;
     text-align: center;
   }
 }
 
 .nav{
-  top:2vw;
+  top:20px;
   right:2vw;
   height: 50px;
   width:50px;

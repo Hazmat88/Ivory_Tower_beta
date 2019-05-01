@@ -1,5 +1,9 @@
 @import "../imports.scss";
 
+.cameras{
+
+  width: 100%;
+}
 
 .camera01{
 
@@ -17,7 +21,7 @@
 
         input{
           margin-top:10px;
-          width: 20vw;
+          width: 25%;
           height: 25px;
           //background-color: $orangelightS18;
           border:none;
@@ -26,11 +30,11 @@
     }
 
   .input_{
-    padding-left:15vw;
+    padding-left:10%;
   }
 
     .titleA{
-      width: 100%;
+      width: auto;
       height:50px;
       background-color:$blueB;
           input, button{
@@ -91,7 +95,7 @@
 
         input{
           margin-top:10px;
-          width: 20vw;
+          width: 25%;
           height: 25px;
           //background-color: $orangelightS18;
           border:none;
@@ -99,7 +103,7 @@
         }
     }
     .input_{
-      padding-left:15vw;
+      padding-left:10%;
     }
 
 

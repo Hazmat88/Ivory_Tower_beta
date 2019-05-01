@@ -1,7 +1,7 @@
 @import "../imports.scss";
 
 .cameras{
-  display :flex;
+  display:flex;
   width: 100%;
 }
 .camera01{
@@ -17,16 +17,18 @@
       }
 
 .hudA{
+  display:block;
+  width: auto;
 
   input{
-    width: 10vw;
+
   }
 
 }
 
 
   .input_{
-    padding-left: 10vw;
+    padding-left: 5%;
   }
 }
 
@@ -46,16 +48,17 @@
       }
 
       .hudB{
-
+        display:block;
+        width: auto;
         input{
-          width: 10vw;
+
         }
 
       }
 
 
         .input_{
-          padding-left: 10vw;
+          padding-left: 5%;
         }
 
 }

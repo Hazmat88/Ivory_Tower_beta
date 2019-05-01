@@ -194,7 +194,7 @@ table {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 1vw;
+  top: -10px;
   right: 2vw;
   font-size: 80px;
   margin-left: 50px;
@@ -209,6 +209,9 @@ table {
   @include nomdumixins(red,500px);
 }
 */
+.cameras {
+  width: 100%; }
+
 .camera01 {
   width: 100%;
   height: 50px;
@@ -221,14 +224,14 @@ table {
       display: none; }
     .camera01 .hudA input {
       margin-top: 10px;
-      width: 20vw;
+      width: 25%;
       height: 25px;
       border: none;
       text-align: center; }
   .camera01 .input_ {
-    padding-left: 15vw; }
+    padding-left: 10%; }
   .camera01 .titleA {
-    width: 100%;
+    width: auto;
     height: 50px;
     background-color: #FF8D6E; }
     .camera01 .titleA input, .camera01 .titleA button {
@@ -268,12 +271,12 @@ table {
       display: none; }
     .camera02 .hudB input {
       margin-top: 10px;
-      width: 20vw;
+      width: 25%;
       height: 25px;
       border: none;
       text-align: center; }
   .camera02 .input_ {
-    padding-left: 15vw; }
+    padding-left: 10%; }
   .camera02 .titleB {
     width: auto;
     height: 50px;
@@ -322,7 +325,7 @@ body {
     padding-top: 3vw;
     width: auto;
     text-align: center;
-    font-size: 5.5vw;
+    font-size: 4.5vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
@@ -331,7 +334,8 @@ body {
     display: none; }
 
   .clock #clock_style {
-    text-align: center; }
+    text-align: center;
+    font-size: 6vw; }
 
   .nav {
     top: 2.5vw;
@@ -366,7 +370,7 @@ body {
       padding-top: 2vw;
       width: auto;
       text-align: center;
-      font-size: 3vw;
+      font-size: 2.5vw;
       font-family: pantherregular, sans-serif;
       background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
       -webkit-background-clip: text;
@@ -379,11 +383,11 @@ body {
     height: auto;
     background-color: #323232; }
     .clock #clock_style {
-      font-size: 6vw;
+      font-size: 5vw;
       text-align: center; }
 
   .nav {
-    top: 2vw;
+    top: 20px;
     right: 2vw;
     height: 50px;
     width: 50px; }
@@ -404,10 +408,11 @@ body {
     .camera01 .cam01 {
       width: 100%;
       height: 35%; }
-    .camera01 .hudA input {
-      width: 10vw; }
+    .camera01 .hudA {
+      display: block;
+      width: auto; }
     .camera01 .input_ {
-      padding-left: 10vw; }
+      padding-left: 5%; }
 
   .camera02 {
     margin-top: 0vw;
@@ -417,10 +422,11 @@ body {
     .camera02 .cam02 {
       width: 100%;
       height: 35%; }
-    .camera02 .hudB input {
-      width: 10vw; }
+    .camera02 .hudB {
+      display: block;
+      width: auto; }
     .camera02 .input_ {
-      padding-left: 10vw; }
+      padding-left: 5%; }
 
   body {
     background-color: #E26882; }

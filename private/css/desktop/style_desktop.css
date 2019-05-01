@@ -27,7 +27,7 @@
     padding-top: 2vw;
     width: auto;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
@@ -40,11 +40,11 @@
   height: auto;
   background-color: #323232; }
   .clock #clock_style {
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center; }
 
 .nav {
-  top: 2vw;
+  top: 20px;
   right: 2vw;
   height: 50px;
   width: 50px; }
@@ -65,10 +65,11 @@
   .camera01 .cam01 {
     width: 100%;
     height: 35%; }
-  .camera01 .hudA input {
-    width: 10vw; }
+  .camera01 .hudA {
+    display: block;
+    width: auto; }
   .camera01 .input_ {
-    padding-left: 10vw; }
+    padding-left: 5%; }
 
 .camera02 {
   margin-top: 0vw;
@@ -78,10 +79,11 @@
   .camera02 .cam02 {
     width: 100%;
     height: 35%; }
-  .camera02 .hudB input {
-    width: 10vw; }
+  .camera02 .hudB {
+    display: block;
+    width: auto; }
   .camera02 .input_ {
-    padding-left: 10vw; }
+    padding-left: 5%; }
 
 body {
   background-color: #E26882; }
