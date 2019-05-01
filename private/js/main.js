@@ -56,7 +56,7 @@ function ipadress(ipaddi,linktitle,nameI) {
 
     var adressip =  document.getElementById(ipaddi).value;
     var fulladdressip = "192.168." + adressip + ":8080";
-    var linktitleA = name +" "+fulladdressip ;
+    var linktitleA = name +" - "+fulladdressip ;
   //Verification console.log
     console.log(fulladdressip);
     console.log(adressip);
@@ -92,8 +92,8 @@ function hud_link(hudi,hudI,titleI) {
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "150px";
-  document.getElementById("main").style.marginRight = "150px";
+  document.getElementById("mySidenav").style.width = "100px";
+  document.getElementById("main").style.marginRight = "100px";
   //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 

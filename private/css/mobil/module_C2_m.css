@@ -26,27 +26,35 @@
     padding-left: 10%; }
   .camera01 .titleA {
     width: auto;
-    height: 50px;
+    height: auto;
+    padding-bottom: 10px;
     background-color: #FF8D6E; }
     .camera01 .titleA input, .camera01 .titleA button {
       display: none; }
     .camera01 .titleA a {
-      padding-top: 10px;
+      margin-right: 10px;
+      padding-top: 12px;
       text-align: right;
       display: block !important;
       text-decoration: none;
       color: inherit;
-      font-size: 2em;
+      font-size: 1.7em;
       font-family: pantherregular, sans-serif; }
     .camera01 .titleA h1 {
-      padding-top: 1.2vw; }
+      padding-top: 100px; }
     .camera01 .titleA .button_switch_hud {
       display: block !important;
       float: left;
-      margin-top: -42px;
+      margin-top: -39px;
       height: 50px;
       width: 50px;
       background-color: #A7558F; }
+  .camera01 #subhda {
+    margin-top: 10px;
+    width: 15%;
+    height: 27px;
+    border: none;
+    text-align: center; }
   .camera01 .cam01 {
     width: 100%;
     height: 60vw;
@@ -73,30 +81,38 @@
     padding-left: 10%; }
   .camera02 .titleB {
     width: auto;
-    height: 50px;
+    height: auto;
+    padding-bottom: 10px;
     background-color: #FF8D6E; }
     .camera02 .titleB input, .camera02 .titleB button {
       display: none; }
     .camera02 .titleB a {
-      padding-top: 10px;
+      margin-right: 10px;
+      padding-top: 12px;
       text-align: right;
       display: block !important;
       text-decoration: none;
       color: inherit;
-      font-size: 1.5em;
+      font-size: 1.7em;
       font-family: pantherregular, sans-serif; }
     .camera02 .titleB .button_switch_hud {
       display: block !important;
       float: left;
-      margin-top: -42px;
+      margin-top: -39px;
       height: 50px;
       width: 50px;
       background-color: #A7558F; }
   .camera02 .titleB h1 {
-    padding-top: 1.2vw; }
+    padding-top: 50px; }
   .camera02 .cam02 {
     width: 100%;
     height: 60vw;
     background-color: grey; }
+  .camera02 #subhdb {
+    margin-top: 10px;
+    width: 15%;
+    height: 27px;
+    border: none;
+    text-align: center; }
 
 /*# sourceMappingURL=module_C2_m.css.map */

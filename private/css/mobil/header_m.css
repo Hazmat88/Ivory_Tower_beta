@@ -27,6 +27,7 @@
   background-color: #404040; }
   .clock #clock_style {
     padding-top: 10px;
+    padding-bottom: 10px;
     width: auto;
     text-align: left;
     font-size: 13vw;
@@ -51,8 +52,8 @@
 
 .nav {
   position: fixed;
-  top: 5vw;
-  right: 10vw;
+  top: 20px;
+  right: 20px;
   width: 45px;
   height: 45px;
   background: url("../private/img/burger_icon.png") no-repeat center;
@@ -61,20 +62,14 @@
   opacity: 0.7; }
 
 .btncontroller {
-  display: none; }
-
-/*
-.btncontroller{
-  position:fixed;
-  top:80px;
-  right:2vw;
- width:30px;
- height:30px;
- //background-color:$build ;
- background: url("../private/img/controller_icon.png") no-repeat center;//fallback
- background-image: url('../img/controller_icon.svg');
- background-size: contain;
- opacity:0.7;
-}*/
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  background: url("../private/img/controller_icon.png") no-repeat center;
+  background-image: url("../img/controller_icon.svg");
+  background-size: contain;
+  opacity: 0.6; }
 
 /*# sourceMappingURL=header_m.css.map */

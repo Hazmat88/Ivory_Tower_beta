@@ -35,37 +35,46 @@
 
     .titleA{
       width: auto;
-      height:50px;
+      height:auto;
+      padding-bottom:10px;
       background-color:$blueB;
           input, button{
             display:none;
           }
 
           a{
-            padding-top: 10px;
+            margin-right: 10px;
+            padding-top: 12px;
             text-align: right;
             display: block !important;
             text-decoration: none;
             color: inherit;
-            font-size: 2em;
+            font-size: 1.7em;
             font-family:pantherregular, sans-serif;
           }
 
           h1{
-             padding-top:1.2vw;
+             padding-top:100px;
            }
 
          .button_switch_hud{
            display: block !important;
             float:left;
-            margin-top:-42px;
-
+            margin-top:-39px;
             height: 50px;
             width: 50px;
             background-color: $magentaS18;
           }
     }
 
+#subhda{
+    margin-top:10px;
+    width: 15%;
+    height: 27px;
+    //background-color: $orangelightS18;
+    border:none;
+    text-align:center;
+}
 
     .cam01{
       //margin-top: 3vw;
@@ -109,33 +118,36 @@
 
     .titleB{
       width: auto;
-      height:50px;
+      height:auto;
+      padding-bottom:10px;
       background-color:$blueB;
           input, button{
             display:none;
           }
 
           a{
-            padding-top: 10px;
+            margin-right: 10px;
+            padding-top: 12px;
             text-align: right;
             display: block !important;
             text-decoration: none;
             color: inherit;
-            font-size: 1.5em;
+            font-size: 1.7em;
             font-family:pantherregular, sans-serif;
           }
 
          .button_switch_hud{
            display: block !important;
             float:left;
-            margin-top:-42px;
+            margin-top:-39px;
             height: 50px;
             width: 50px;
             background-color:$magentaS18;
           }
     }
+
 .titleB   h1{
-    padding-top:1.2vw;
+    padding-top:50px;
   }
 
     .cam02{
@@ -143,5 +155,14 @@
       width: 100%;
       height:60vw;
       background-color: grey;
+    }
+
+    #subhdb{
+        margin-top:10px;
+        width: 15%;
+        height: 27px;
+        //background-color: $orangelightS18;
+        border:none;
+        text-align:center;
     }
 }

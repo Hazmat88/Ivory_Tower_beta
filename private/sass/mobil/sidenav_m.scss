@@ -55,7 +55,7 @@
 
 .sidenav a {
 
-  padding: 12px 8px 8px 50px;
+  padding: 12px 8px 8px 25px;
   text-decoration: none;
   font-size: 30px;
   color: $redS18;
@@ -71,8 +71,8 @@
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: -5px;
-  right: 9vw;
+  top: 0px;
+  right: 20px;
   font-size: 60px;
   margin-left: 50px;
   color:$redS18;

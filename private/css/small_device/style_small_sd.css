@@ -30,6 +30,9 @@
   top: 2.5vw;
   right: 2.5vw; }
 
+.btncontroller {
+  display: none; }
+
 /*
 .article{
   @include nomdumixins(red,500px);
