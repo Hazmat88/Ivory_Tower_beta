@@ -20,6 +20,39 @@
   padding-top:50px;
 }
 
+.Sidenavb1{
+  width:50px;
+  height:50px;
+  background-color: $purpleS18;
+}
+.Sidenavb2{
+  width:50px;
+  height:50px;
+  background-color: $magentaS18;
+}
+.Sidenavb3{
+  width:50px;
+  height:50px;
+  background-color: $redS18;
+}
+.Sidenavb4{
+  width:50px;
+  height:50px;
+  background-color: $orangeS18;
+}
+.Sidenavb5{
+  width:50px;
+  height:50px;
+  background-color: $orangelightS18;
+}
+.Sidenavb6{
+  width:50px;
+  height:50px;
+  background-color: $yellowS18;
+}
+
+
+
 .sidenav a {
 
   padding: 12px 8px 8px 50px;
@@ -47,6 +80,6 @@
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
-  padding: 20px;
+  transition: margin-Right .5s;
+
 }

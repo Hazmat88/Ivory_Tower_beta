@@ -92,12 +92,16 @@ function hud_link(hudi,hudI,titleI) {
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("main").style.marginRight = "150px";
+  //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginRight= "0";
+//  document.body.style.backgroundColor = "white";
 }
 
 
@@ -112,7 +116,7 @@ function showhide_controller(){
    }
 }
 
-// In PROGRESS FOR DESKTOP MODE OK BUT NOT CLEAN BECAUSE unit it's vw & % here than the css file only % Need two different effect if in desktop mode or Mobile By default Mobile Landscape 2 screen its ok 
+// In PROGRESS FOR DESKTOP MODE OK BUT NOT CLEAN BECAUSE unit it's vw & % here than the css file only % Need two different effect if in desktop mode or Mobile By default Mobile Landscape 2 screen its ok
 function showhide_cam02(){
   var cam2 = document.getElementById("camera02");
   var cam1 = document.getElementById("camera01");

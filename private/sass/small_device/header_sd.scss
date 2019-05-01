@@ -1,38 +1,35 @@
 @import "../imports.scss";
 
 .date{
-    height:15vw;
-    .date_style{display:none;}
 
-    .short_date{
-      display:block;
-      margin-right:0px;
-      padding-top: 5vw;
-      width:auto;
+//  height:10vw;
 
-      font-size: 13vw;
-      font-family:pantherregular, sans-serif;
-        background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+  .date_style{
+        display: block;
+        margin-right:15vw;
+        padding-top: 3vw;
+        width:auto;
+        text-align:center;
+        font-size: 5.5vw;
+        font-family:pantherregular, sans-serif;
+          background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
     }
+
+  .short_date{ display:none;}
+
 }
 
 .clock{
 
-        #clock_style{
-        //margin-left:0px;
-        text-align: left;
-        }
+      #clock_style{
+          text-align: center;
+      }
 }
 
 .nav{
-  top:5vw;
-  right:5vw;
-  width: 45px;
-  height:45px;
-}
+  top:2.5vw;
+  right:2.5vw;
 
-.btncontroller{
-  display:none;
 }

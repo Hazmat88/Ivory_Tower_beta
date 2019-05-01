@@ -1,10 +1,12 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="nav_links">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="#"><div class="Sidenavb1"></div></a>
+      <a href="#"><div class="Sidenavb2"></div></a>
+      <a href="#"><div class="Sidenavb3"></div></a>
+      <a href="#"><div class="Sidenavb4"></div></a>
+      <a href="#"><div class="Sidenavb5"></div></a>
+      <a href="#"><div class="Sidenavb6"></div></a>
+
     </div>
 </div>
-

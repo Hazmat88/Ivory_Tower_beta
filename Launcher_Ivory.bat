@@ -10,9 +10,9 @@ set Path_wamp=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Wampserver64
 
 ::Initialize Directories &/or Files
 ::Project file dev                        var=%dev_file%
-set dev_file=Ivory_tower_Beta
+set dev_file=Ivory_Tower\Ivory_tower_beta
 ::Local Adress of page dev project        var=%local_url%
-set local_url=http://localhost/Web_dev_GD/Ivory_tower_Beta/index.php
+set local_url=http://localhost/Web_dev_GD/Ivory_Tower/Ivory_tower_beta/index.php
 
 
 

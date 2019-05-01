@@ -29,6 +29,36 @@
 .nav_links {
   padding-top: 50px; }
 
+.Sidenavb1 {
+  width: 50px;
+  height: 50px;
+  background-color: #5E4A89; }
+
+.Sidenavb2 {
+  width: 50px;
+  height: 50px;
+  background-color: #A7558F; }
+
+.Sidenavb3 {
+  width: 50px;
+  height: 50px;
+  background-color: #E26882; }
+
+.Sidenavb4 {
+  width: 50px;
+  height: 50px;
+  background-color: #FF8D6E; }
+
+.Sidenavb5 {
+  width: 50px;
+  height: 50px;
+  background-color: #FFC061; }
+
+.Sidenavb6 {
+  width: 50px;
+  height: 50px;
+  background-color: #F9F870; }
+
 .sidenav a {
   padding: 12px 8px 8px 50px;
   text-decoration: none;
@@ -52,7 +82,6 @@
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
-  padding: 20px; }
+  transition: margin-Right .5s; }
 
 /*# sourceMappingURL=sidenav_m.css.map */

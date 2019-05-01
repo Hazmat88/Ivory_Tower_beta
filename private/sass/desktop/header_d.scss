@@ -15,10 +15,10 @@
     margin-right:0px;
     display: block;
   //  margin-right:15vw;
-    padding-top: 3vw;
+    padding-top: 2vw;
     width:auto;
     text-align:center;
-    font-size: 3em;
+    font-size: 3vw;
     font-family:pantherregular, sans-serif;
       background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
   -webkit-background-clip: text;
@@ -36,7 +36,7 @@
 
   background-color: $blackB;
   #clock_style{
-    font-size: 7vw;
+    font-size: 6vw;
     text-align: center;
   }
 }
@@ -44,4 +44,6 @@
 .nav{
   top:2vw;
   right:2vw;
+  height: 50px;
+  width:50px;
 }
