@@ -36,7 +36,7 @@
     .titleA{
       width: auto;
       height:auto;
-      padding-bottom:10px;
+
       background-color:$blueB;
           input, button{
             display:none;
@@ -44,7 +44,8 @@
 
           a{
             margin-right: 10px;
-            padding-top: 12px;
+            padding-top: 7px;
+            padding-bottom:8px;
             text-align: right;
             display: block !important;
             text-decoration: none;
@@ -53,16 +54,14 @@
             font-family:pantherregular, sans-serif;
           }
 
-          h1{
-             padding-top:100px;
-           }
+
 
          .button_switch_hud{
            display: block !important;
             float:left;
-            margin-top:-39px;
-            height: 50px;
-            width: 50px;
+            margin-top:-42px;
+            height: 37px;
+            width: 37px;
             background-color: $magentaS18;
           }
     }
@@ -77,7 +76,7 @@
 }
 
     .cam01{
-      //margin-top: 3vw;
+      margin-top: -5px;
       width: 100%;
       height:60vw;
       background-color: grey;
