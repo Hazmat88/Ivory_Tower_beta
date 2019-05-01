@@ -55,7 +55,7 @@ table {
   .date .short_date {
     display: block;
     margin-right: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
     width: auto;
     font-size: 12.5vw;
     font-family: pantherregular, sans-serif;
@@ -94,7 +94,7 @@ table {
 
 .nav {
   position: fixed;
-  top: 20px;
+  top: 10px;
   right: 20px;
   width: 45px;
   height: 45px;
