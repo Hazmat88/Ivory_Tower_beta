@@ -7,7 +7,7 @@
   width:100%;
   height:auto;
   background-color: $blackB;
-  padding-bottom:10px;
+  padding-bottom:5px;
 
     .date_style{display:none;}
 
@@ -35,8 +35,8 @@
   background-color: $bgcA;
 
       #clock_style{
-        padding-top:10px;
-        padding-bottom:10px;
+        padding-top:5px;
+        padding-bottom:5px;
         width:auto;
         text-align:left;
         font-size:13vw;
@@ -76,7 +76,7 @@
 
 .nav{
    position:fixed;
-   top:10px;
+   top:1%;
    right:20px;
    width: 45px;
    height:45px;
@@ -89,7 +89,7 @@
 
 
 
-.btncontroller{
+/*.btncontroller{
   position:fixed;
   top:80px;
   right:20px;
@@ -100,4 +100,4 @@
  background-image: url('../img/controller_icon.svg');
  background-size: contain;
  opacity:0.6;
-}
+}*/
