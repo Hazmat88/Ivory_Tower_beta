@@ -15,7 +15,7 @@
 
                 <input type="text" id="ipaddA" placeholder="Just Device Number IP" >
 
-                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA')">DONE</button>
+                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA','cam01')">DONE</button>
             </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
@@ -30,7 +30,7 @@
 <!--*******************************************************************
 ********************** FLUX A **************************************************************** -->
             <div id="fluxa" class="flux_A">
-                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.36:8080/video">
+                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.32:8080/video">
             </div>
 
 <!--*******************************************************************
@@ -67,7 +67,7 @@ Good
 
             <input type="text" id='ipaddB' placeholder="Just Device Number IP" >
 
-            <button id="subhdb" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB','nameB')">DONE</button>
+            <button id="subhdb" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB','nameB','cam02')">DONE</button>
       </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEB *************-->
@@ -82,7 +82,7 @@ Good
 <!--*******************************************************************
 ********************** FLUX B **************************************************************** -->
         <div class="flux_B">
-            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.36:8080/video">
+            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.32:8080/video">
         </div>
 
 <!--*******************************************************************

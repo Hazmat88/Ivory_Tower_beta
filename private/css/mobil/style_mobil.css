@@ -10,17 +10,18 @@
 */
 .date {
   width: 100%;
-  height: auto;
-  background-color: #323232;
-  padding-bottom: 5px; }
+  height: 60px;
+  background-color: #323232; }
   .date .date_style {
     display: none; }
   .date .short_date {
     display: block;
     margin-right: 0px;
     padding-top: 10px;
+    padding-bottom: 5px;
     width: auto;
-    font-size: 12.5vw;
+    text-align: left;
+    font-size: 2.5em;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
@@ -28,36 +29,45 @@
 
 .clock {
   width: 100%;
-  height: auto;
+  height: 60px;
   background-color: #404040; }
   .clock #clock_style {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
     width: auto;
     text-align: left;
-    font-size: 13vw;
+    font-size: 2.8em;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #5E4A89 0%, #A7558F 25%, #FF8D6E 50%, #FFC061 75%, #F9F870 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
-.controller {
-  width: 100vw;
-  height: 50px;
-  background-color: #E26882; }
-  .controller .twoscreen {
-    width: 100px;
-    height: 50px;
-    background-color: #FFC061; }
-  .controller .ctrl2 {
-    /*margin-left:200px;
-    width:100px;
-    height: 100px;
-    background-color:$yellowS18 ;*/ }
+/*
+.controller{
+  width:100vw;
+  height:50px;
+  background-color: $build;
 
+    .controller_style{
+
+    }
+
+    .twoscreen{
+      width:100px;
+      height: 50px;
+      background-color:$orangelightS18 ;
+    }
+
+    .ctrl2{
+      /*margin-left:200px;
+      width:100px;
+      height: 100px;
+      background-color:$yellowS18 ;
+    }
+
+}*/
 .nav {
   position: fixed;
-  top: 1%;
+  top: 10px;
   right: 20px;
   width: 45px;
   height: 45px;
@@ -143,7 +153,7 @@
   padding: 12px 8px 8px 25px;
   text-decoration: none;
   font-size: 30px;
-  color: #E26882;
+  color: #323232;
   display: block;
   transition: 0.3s; }
 
@@ -174,7 +184,7 @@
 
 .camera01 {
   width: 100%;
-  height: 50px;
+  height: auto;
   background-color: #404040; }
   .camera01 .hudA {
     width: auto;
@@ -198,7 +208,7 @@
     .camera01 .titleA a {
       margin-right: 10px;
       padding-top: 10px;
-      padding-bottom: 13px;
+      padding-bottom: 12px;
       text-align: right;
       display: block !important;
       text-decoration: none;
@@ -219,15 +229,13 @@
     border: none;
     text-align: center; }
   .camera01 .cam01 {
-    margin-top: -5px;
     width: 100%;
     height: 60vw;
     background-color: grey; }
 
 .camera02 {
-  margin-top: 59vw;
   width: 100%;
-  height: 50px;
+  height: auto;
   background-color: #404040; }
   .camera02 .hudB {
     width: auto;
@@ -246,13 +254,13 @@
   .camera02 .titleB {
     width: auto;
     height: auto;
-    padding-bottom: 10px;
     background-color: #FF8D6E; }
     .camera02 .titleB input, .camera02 .titleB button {
       display: none; }
     .camera02 .titleB a {
       margin-right: 10px;
-      padding-top: 12px;
+      padding-top: 10px;
+      padding-bottom: 12px;
       text-align: right;
       display: block !important;
       text-decoration: none;
@@ -262,12 +270,10 @@
     .camera02 .titleB .button_switch_hud {
       display: block !important;
       float: left;
-      margin-top: -39px;
+      margin-top: -50px;
       height: 50px;
-      width: 50px;
+      width: 45px;
       background-color: #A7558F; }
-  .camera02 .titleB h1 {
-    padding-top: 50px; }
   .camera02 .cam02 {
     width: 100%;
     height: 60vw;

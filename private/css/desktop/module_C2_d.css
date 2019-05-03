@@ -13,7 +13,7 @@
   background-color: grey; }
   .camera01 .cam01 {
     width: 100%;
-    height: 35%; }
+    height: 35vw; }
   .camera01 .hudA {
     display: block;
     width: auto; }
@@ -29,7 +29,7 @@
   background-color: grey; }
   .camera02 .cam02 {
     width: 100%;
-    height: 35%; }
+    height: 35vw; }
   .camera02 .hudB {
     display: block;
     width: auto; }

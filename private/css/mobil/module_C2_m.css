@@ -8,7 +8,7 @@
 
 .camera01 {
   width: 100%;
-  height: 50px;
+  height: auto;
   background-color: #404040; }
   .camera01 .hudA {
     width: auto;
@@ -32,7 +32,7 @@
     .camera01 .titleA a {
       margin-right: 10px;
       padding-top: 10px;
-      padding-bottom: 13px;
+      padding-bottom: 12px;
       text-align: right;
       display: block !important;
       text-decoration: none;
@@ -53,15 +53,13 @@
     border: none;
     text-align: center; }
   .camera01 .cam01 {
-    margin-top: -5px;
     width: 100%;
     height: 60vw;
     background-color: grey; }
 
 .camera02 {
-  margin-top: 59vw;
   width: 100%;
-  height: 50px;
+  height: auto;
   background-color: #404040; }
   .camera02 .hudB {
     width: auto;
@@ -80,13 +78,13 @@
   .camera02 .titleB {
     width: auto;
     height: auto;
-    padding-bottom: 10px;
     background-color: #FF8D6E; }
     .camera02 .titleB input, .camera02 .titleB button {
       display: none; }
     .camera02 .titleB a {
       margin-right: 10px;
-      padding-top: 12px;
+      padding-top: 10px;
+      padding-bottom: 12px;
       text-align: right;
       display: block !important;
       text-decoration: none;
@@ -96,12 +94,10 @@
     .camera02 .titleB .button_switch_hud {
       display: block !important;
       float: left;
-      margin-top: -39px;
+      margin-top: -50px;
       height: 50px;
-      width: 50px;
+      width: 45px;
       background-color: #A7558F; }
-  .camera02 .titleB h1 {
-    padding-top: 50px; }
   .camera02 .cam02 {
     width: 100%;
     height: 60vw;

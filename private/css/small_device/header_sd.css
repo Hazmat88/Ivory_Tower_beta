@@ -3,27 +3,36 @@
   @include nomdumixins(red,500px);
 }
 */
-.date .date_style {
-  display: block;
-  margin-right: 15vw;
-  padding-top: 3vw;
-  width: auto;
-  text-align: center;
-  font-size: 4.5vw;
-  font-family: pantherregular, sans-serif;
-  background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-.date .short_date {
-  display: none; }
+.head {
+  display: flex;
+  width: 100%; }
 
-.clock #clock_style {
-  text-align: center;
-  font-size: 6vw; }
+.date {
+  width: 50%;
+  height: 90px; }
+  .date .date_style {
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: pantherregular, sans-serif;
+    background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .date .short_date {
+    display: none; }
+
+.clock {
+  width: 50%;
+  height: 90px; }
+  .clock #clock_style {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 3.5em; }
 
 .nav {
-  top: 2.5vw;
-  right: 2.5vw; }
+  top: 20px;
+  right: 20px; }
 
 .btncontroller {
   display: none; }

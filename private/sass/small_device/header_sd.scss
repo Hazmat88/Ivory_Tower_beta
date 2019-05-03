@@ -1,16 +1,23 @@
 @import "../imports.scss";
 
-.date{
+.head{
+  display :flex;
+  width: 100%;
+}
 
+.date{
+  width:50%;
+  height:90px;
 //  height:10vw;
 
   .date_style{
+
         display: block;
-        margin-right:15vw;
-        padding-top: 3vw;
-        width:auto;
+        //margin-right:15vw;
+        padding-top: 30px;
+      //  width:auto;
         text-align:center;
-        font-size: 4.5vw;
+        font-size: 1.7em;
         font-family:pantherregular, sans-serif;
           background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
          -webkit-background-clip: text;
@@ -22,16 +29,18 @@
 }
 
 .clock{
-
+  width:50%;
+  height:90px;
       #clock_style{
-          text-align: center;
-          font-size:6vw;
+        padding-top: 20px;
+          text-align: left;
+          font-size:3.5em;
       }
 }
 
 .nav{
-  top:2.5vw;
-  right:2.5vw;
+  top:20px;
+  right:20px;
 
 }
 

@@ -9,15 +9,15 @@
 
 .date {
   width: 50%;
-  height: auto;
+  height: 90px;
   background-color: #404040; }
   .date .date_style {
     margin-right: 0px;
     display: block;
-    padding-top: 2vw;
+    padding-top: 30px;
     width: auto;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.5em;
     font-family: pantherregular, sans-serif;
     background: linear-gradient(-330deg, #FF8D6E 0%, #FF8D6E 25%, #8677E0 50%, #A7558F 75%, #A7558F 100%);
     -webkit-background-clip: text;
@@ -27,15 +27,16 @@
 
 .clock {
   width: 50%;
-  height: auto;
+  height: 90px;
   background-color: #323232; }
   .clock #clock_style {
-    font-size: 5vw;
+    padding-top: 10px;
+    font-size: 4.5em;
     text-align: center; }
 
 .nav {
   top: 20px;
-  right: 2vw;
+  right: 20px;
   height: 50px;
   width: 50px; }
 

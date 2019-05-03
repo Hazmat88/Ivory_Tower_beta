@@ -5,9 +5,9 @@
 .date{
 
   width:100%;
-  height:auto;
+  height:60px;
   background-color: $blackB;
-  padding-bottom:5px;
+  ;
 
     .date_style{display:none;}
 
@@ -15,8 +15,10 @@
             display:block;
             margin-right:0px;
             padding-top: 10px;
-            width:auto;
-            font-size: 12.5vw;
+            padding-bottom:5px;
+              width:auto;
+              text-align: left;
+            font-size: 2.5em;
             font-family:pantherregular, sans-serif;
               background: linear-gradient(-330deg, $blueB 0%, $blueB 25%, #8677E0 50%, $PinkB  75%, $PinkB 100%);
             -webkit-background-clip: text;
@@ -31,15 +33,15 @@
 .clock{
 
   width:100%;
-  height:auto;
+  height:60px;
   background-color: $bgcA;
 
       #clock_style{
-        padding-top:5px;
-        padding-bottom:5px;
+        padding-top:10px;
+        //padding-bottom:5px;
         width:auto;
         text-align:left;
-        font-size:13vw;
+        font-size:2.8em;
         font-family:pantherregular, sans-serif;
         background: linear-gradient(-330deg, $purpleS18  0%, $magentaS18 25%, $orangeS18 50%, $orangelightS18  75%,$yellowS18 100%);
         -webkit-background-clip: text;
@@ -49,7 +51,7 @@
 }
 
 
-
+/*
 .controller{
   width:100vw;
   height:50px;
@@ -69,14 +71,14 @@
       /*margin-left:200px;
       width:100px;
       height: 100px;
-      background-color:$yellowS18 ;*/
+      background-color:$yellowS18 ;
     }
 
-}
+}*/
 
 .nav{
    position:fixed;
-   top:1%;
+   top:10px;
    right:20px;
    width: 45px;
    height:45px;

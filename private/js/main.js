@@ -44,13 +44,13 @@ function clock() {
 
 
 //FUNCTION IP ADRESS + HUD LINK TO DASHBOARD APP Into NEW TAB
-function hud_switch(hudx,hudX,titleX,linktitleX,ipadX,nameX) {
-  ipadress(ipadX,linktitleX,nameX);
+function hud_switch(hudx,hudX,titleX,linktitleX,ipadX,nameX,camX) {
+  ipadress(ipadX,linktitleX,nameX,camX);
   hud_link(hudx,hudX,titleX);
 }
 
 //FUNCTION IP ADRESS Abstration ex:paramater fot link titleA "link_titleA" Abstract in progress
-function ipadress(ipaddi,linktitle,nameI) {
+function ipadress(ipaddi,linktitle,nameI,cami) {
   //Variables
     var name = document.getElementById(nameI).value;
 
@@ -62,7 +62,7 @@ function ipadress(ipaddi,linktitle,nameI) {
     console.log(adressip);
 
   //Changement/Effects of transformations
-    document.getElementById("browser_video").src="http://192.168." + adressip + ":8080/video";
+    document.getElementsByClassName(cami)[0].src="http://192.168." + adressip + ":8080/video";
     //TRY Bypass ID Element browser_video commun to all Flux Video Cameras
     //document.getElementsByClassName("fluxA").src="http://192.168." + adressip + ":8080/video";
     //document.getElementsByClassName("cam01").setAttribute(src, "http://192.168." + adressip + ":8080/video");
@@ -117,3 +117,42 @@ function showhide_controller(){
 }
 
 // In PROGRESS FOR DESKTOP MODE OK BUT NOT CLEAN BECAUSE unit it's vw & % here than the css file only % Need two different effect if in desktop mode or Mobile By default Mobile Landscape 2 screen its ok+
+
+function screenhh(){
+  var c1 = document.getElementsByClassName('cam01')[0];
+  var c2 = document.getElementsByClassName('cam02')[0];
+  c1.style.height = "30vw";
+  c2.style.height = "30vw";
+}
+
+function screenvv(){
+  var c1 = document.getElementsByClassName('cam01')[0];
+  var c2 = document.getElementsByClassName('cam02')[0];
+  c1.style.height = "60vw";
+  c2.style.height = "60vw";
+}
+
+function screenhv(){
+  var c1 = document.getElementsByClassName('cam01')[0];
+  var c2 = document.getElementsByClassName('cam02')[0];
+  c1.style.height = "60vw";
+  c2.style.height = "60vw";
+}
+
+function screenvh(){
+  var c1 = document.getElementsByClassName('cam01')[0];
+  var c2 = document.getElementsByClassName('cam02')[0];
+  c1.style.height = "35vw";
+  c2.style.height = "35vw";
+}
+
+function screenh(){
+
+}
+
+function screenv(){
+
+}
+
+//<input type='button' onclick='addNewClass(this)' value='Create' />
+//  function addNewClass(elem){ elem.className="newClass"; }
