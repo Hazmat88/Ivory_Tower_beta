@@ -38,4 +38,15 @@
   .camera02 .input_ {
     padding-left: 5%; }
 
+frame-area {
+  display: block;
+  width: 100%;
+  /* RESPONSIVE WIDTH */
+  height: 300px;
+  overflow: auto;
+  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px; }
+
 /*# sourceMappingURL=module_C2_d.css.map */

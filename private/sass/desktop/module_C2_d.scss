@@ -78,3 +78,37 @@
         }
 
 }
+
+.iframe_app{
+  display:flex;
+  width: 100%;
+}
+
+
+.frame-area_c2 {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+//  max-width: 400px;
+  height: 300px;
+overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
+//  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  margin-right:0px;
+  padding-left:0px;
+  border:none;
+  }
+
+.frame-area_c1 {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+//  max-width: 400px;
+  height: 300px;
+overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
+//  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  margin-right:0px;
+  padding-left:0px;
+  border:none;
+  }

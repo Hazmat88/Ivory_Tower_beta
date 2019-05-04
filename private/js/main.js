@@ -44,13 +44,13 @@ function clock() {
 
 
 //FUNCTION IP ADRESS + HUD LINK TO DASHBOARD APP Into NEW TAB
-function hud_switch(hudx,hudX,titleX,linktitleX,ipadX,nameX,camX) {
-  ipadress(ipadX,linktitleX,nameX,camX);
+function hud_switch(hudx,hudX,titleX,linktitleX,ipadX,nameX,camX,iframeX) {
+  ipadress(ipadX,linktitleX,nameX,camX,iframeX);
   hud_link(hudx,hudX,titleX);
 }
 
 //FUNCTION IP ADRESS Abstration ex:paramater fot link titleA "link_titleA" Abstract in progress
-function ipadress(ipaddi,linktitle,nameI,cami) {
+function ipadress(ipaddi,linktitle,nameI,cami,iframei) {
   //Variables
     var name = document.getElementById(nameI).value;
 
@@ -63,6 +63,9 @@ function ipadress(ipaddi,linktitle,nameI,cami) {
 
   //Changement/Effects of transformations
     document.getElementsByClassName(cami)[0].src="http://192.168." + adressip + ":8080/video";
+
+    //iframe_area
+    document.getElementsByClassName(iframei)[0].src="http://192.168." + adressip + ":8080";
     //TRY Bypass ID Element browser_video commun to all Flux Video Cameras
     //document.getElementsByClassName("fluxA").src="http://192.168." + adressip + ":8080/video";
     //document.getElementsByClassName("cam01").setAttribute(src, "http://192.168." + adressip + ":8080/video");

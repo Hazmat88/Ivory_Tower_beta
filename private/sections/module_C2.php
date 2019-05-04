@@ -15,7 +15,7 @@
 
                 <input type="text" id="ipaddA" placeholder="Just Device Number IP" >
 
-                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA','cam01')">DONE</button>
+                <button id="subhda" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA','cam01','frame-area_c1')">DONE</button>
             </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
@@ -67,7 +67,7 @@ Good
 
             <input type="text" id='ipaddB' placeholder="Just Device Number IP" >
 
-            <button id="subhdb" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB','nameB','cam02')">DONE</button>
+            <button id="subhdb" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB','nameB','cam02','frame-area_c2')">DONE</button>
       </div>
 
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEB *************-->
