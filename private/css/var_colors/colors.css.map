@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/var_colors/colors.scss"],"names":[],"mappings":"AAUA;AAAA;AAAA;AAAA;AAAA","file":"colors.css"}
+{
+"version": 3,
+"mappings": "AAUA;;;;EAIE",
+"sources": ["../../sass/var_colors/colors.scss"],
+"names": [],
+"file": "colors.css"
+}

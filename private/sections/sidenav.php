@@ -9,7 +9,7 @@
        <a href="#"><div class="Sidenavb4" onClick="screenvh()">V/H</div></a>
 </br>
 </br>
-       <a href="#"><div class="Sidenavb5" onClick="console.log('Hello')">H</div></a>
+       <a href="#"><div class="Sidenavb5" onClick="screenh()">H</div></a>
        <a href="#"><div class="Sidenavb6" onClick="console.log('Hello')">V</div></a>
     </div>
 </div>

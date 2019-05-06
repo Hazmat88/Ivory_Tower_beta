@@ -24,25 +24,14 @@
 // ****************** HEADER/SECTION **********************
   include "private/sections/module_C2.php";
 
-
+// ****************** FRAME_APP **************************
+//  include "private/sections/frame_app.php";
 
 
  ?>
 </div>
 
-<div class="iframe_app">
 
-
-  <iframe name="Framename1" src="http://192.168.1.31:8080/" width="50%" height="400"  class="frame-area_c1" scrolling ="auto">
-  </iframe>
-
-  <iframe name="Framename2" src="http://192.168.1.36:8080/" width="49.5%" height="400"   class="frame-area_c2" >
-  </iframe>
-</div>
-
-
-<iframe name="Framename2" src="http://192.168.1.36:8080/sensors.html" width="49.5%" height="400"   class="frame-area" >
-</iframe>
 
 
   </body>

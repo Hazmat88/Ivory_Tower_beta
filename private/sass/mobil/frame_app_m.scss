@@ -1,0 +1,122 @@
+@import "../imports.scss";
+@import "../imports.scss";
+
+/* The side navigation menu */
+.sidenav2 {
+  height: 60vw; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 170px; /* Stay at the top */
+   right: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  //padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.nav_links2{
+  padding-top:50px;
+}
+
+
+
+
+.sidenav2 a {
+
+  padding: 12px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  color: $blackB;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav2 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav2 .closebtn2 {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 60px;
+  margin-left: 50px;
+  color:$redS18;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.flux_A,.sidenav2 {
+  transition: margin-Right .5s;
+
+}
+
+.iframe_app{
+  display:flex;
+  width: 100%;
+}
+
+
+.frame-area_c1 {
+  display: none;
+//  position:relative; //retire du flux ne subit plus le comportement push du sidenav
+  display: block;
+  position: relative;
+//  top:170px;
+  //padding-top:-30vw;
+  width: 100%;  /* RESPONSIVE WIDTH */
+//  max-width: 400px;
+  height: 60vw;
+overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
+//  border: #999999 1px solid;
+  //margin: 0px;
+//  padding: 0px;
+  margin-right:0px;
+  padding-left:0px;
+  border:none;
+  z-index:2;
+  top:-50px;
+  }
+
+.close_frame_1{
+ position:absolute;
+  //display:block;
+  width:100%;
+  height: 60vw;
+  //background-color: $yellowS18;
+  //margin-top:50px;
+  right:0px;
+  z-index:4;
+  //float:right;
+  top:170px;
+}
+.open_frame_1{
+ position:relative;
+  display:none;
+  height: 50px;
+  width:50px;
+  background-color: $redS18;
+  //margin-top:50px;
+  right:0px;
+  z-index:4;
+  float:right;
+  //top:50px;
+}
+
+.frame-area_c2 {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+//  max-width: 400px;
+  height: 300px;
+overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
+//  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  margin-right:0px;
+  padding-left:0px;
+  border:none;
+  }

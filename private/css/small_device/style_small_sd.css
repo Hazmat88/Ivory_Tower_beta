@@ -75,4 +75,15 @@
   margin-left: 50px;
   color: #FFC061; }
 
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+.sidenav2 {
+  top: 140px; }
+
+.close_frame_1 {
+  top: 140px; }
+
 /*# sourceMappingURL=style_small_sd.css.map */

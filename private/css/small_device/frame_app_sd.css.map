@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUA;;;;EAIE;ACXF,SAAS;EACP,GAAG,EAAC,KAAK;;AAGX,cAAc;EACZ,GAAG,EAAC,KAAK",
+"sources": ["../../sass/var_colors/colors.scss","../../sass/small_device/frame_app_sd.scss"],
+"names": [],
+"file": "frame_app_sd.css"
+}

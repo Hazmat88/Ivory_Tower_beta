@@ -13,7 +13,7 @@
   .camera01 .hudA {
     width: auto;
     height: 50px;
-    background-color: #5E4A89; }
+    background-color: rgba(94, 74, 137, 0.8); }
     .camera01 .hudA a {
       display: none; }
     .camera01 .hudA input {
@@ -21,6 +21,12 @@
       height: 25px;
       border: none;
       text-align: center; }
+  .camera01 .validationA {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 45px;
+    background-color: #A7558F; }
   .camera01 .input_ {
     padding-left: 10%; }
   .camera01 .titleA {

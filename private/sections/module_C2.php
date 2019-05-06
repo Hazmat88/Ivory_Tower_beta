@@ -6,6 +6,8 @@
 
             <div id="huda" class="hudA">
 <!--********** HUDA ELEMENTS INPUTS & BUTTONS *************-->
+<div class="validationA" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA','cam01','frame-area_c1')"></div>
+
             <div class="input_">
 
 
@@ -21,18 +23,29 @@
 <!--********** HUDA SWITCHED ELEMENTS DONE TITLEA *************-->
                 <div class="frame_titleA">
                     <a id="link_titleA" href="http://192.168.1.36:8080" target="_blank" >Name + IP ADRESS</a>
-                    <!-- BUTTON SWITCH Hud/title -->
-                    <div class="button_switch_hud" onclick="hud_link('huda','hudA','titleA')"></div>
+                    <!-- BUTTON SWITCH Hud/title -
+                    <div class="button_switch_hud" onclick="hud_link('huda','hudA','titleA')"></div>-->
                 </div>
 
             </div>
 
+
 <!--*******************************************************************
 ********************** FLUX A **************************************************************** -->
             <div id="fluxa" class="flux_A">
-                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.32:8080/video">
-            </div>
 
+              <div class="close_frame_1" onclick="openNav2()">
+              </div>
+
+              <!--<div class="open_frame_1" onclick="closeNav2()">
+              </div> -->
+
+                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.32:8080/video" onclick="closeNav2()">
+
+
+            </div>
+            <?php include "frame_app.php";
+            ?>
 <!--*******************************************************************
 ********************** CONTROLLERS FLUX A **************************************************************** -->
 <!--

@@ -67,7 +67,7 @@ table {
 .clock {
   width: 100%;
   height: 60px;
-  background-color: #404040; }
+  background-color: rgba(71, 71, 73, 0.5); }
   .clock #clock_style {
     padding-top: 10px;
     width: auto;
@@ -226,7 +226,7 @@ table {
   .camera01 .hudA {
     width: auto;
     height: 50px;
-    background-color: #5E4A89; }
+    background-color: rgba(94, 74, 137, 0.8); }
     .camera01 .hudA a {
       display: none; }
     .camera01 .hudA input {
@@ -234,6 +234,12 @@ table {
       height: 25px;
       border: none;
       text-align: center; }
+  .camera01 .validationA {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 45px;
+    background-color: #A7558F; }
   .camera01 .input_ {
     padding-left: 10%; }
   .camera01 .titleA {
@@ -322,6 +328,115 @@ table {
     border: none;
     text-align: center; }
 
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/* The side navigation menu */
+.sidenav2 {
+  height: 60vw;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 170px;
+  /* Stay at the top */
+  right: 0;
+  background-color: white;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.nav_links2 {
+  padding-top: 50px; }
+
+.sidenav2 a {
+  padding: 12px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #323232;
+  display: block;
+  transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav2 a:hover {
+  color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav2 .closebtn2 {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 60px;
+  margin-left: 50px;
+  color: #E26882; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.flux_A, .sidenav2 {
+  transition: margin-Right .5s; }
+
+.iframe_app {
+  display: flex;
+  width: 100%; }
+
+.frame-area_c1 {
+  display: none;
+  display: block;
+  position: relative;
+  width: 100%;
+  /* RESPONSIVE WIDTH */
+  height: 60vw;
+  overflow: hidden;
+  /* EDIT TO hidden FOR NO SCROLLBAR */
+  margin-right: 0px;
+  padding-left: 0px;
+  border: none;
+  z-index: 2;
+  top: -50px; }
+
+.close_frame_1 {
+  position: absolute;
+  width: 100%;
+  height: 60vw;
+  right: 0px;
+  z-index: 4;
+  top: 170px; }
+
+.open_frame_1 {
+  position: relative;
+  display: none;
+  height: 50px;
+  width: 50px;
+  background-color: #E26882;
+  right: 0px;
+  z-index: 4;
+  float: right; }
+
+.frame-area_c2 {
+  display: block;
+  width: 100%;
+  /* RESPONSIVE WIDTH */
+  height: 300px;
+  overflow: hidden;
+  /* EDIT TO hidden FOR NO SCROLLBAR */
+  margin: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  border: none; }
+
 body {
   background-color: #404040; }
 
@@ -401,7 +516,18 @@ body {
     right: 20px;
     font-size: 80px;
     margin-left: 50px;
-    color: #FFC061; } }
+    color: #FFC061; }
+
+  /*
+  .article{
+    @include nomdumixins(red,500px);
+  }
+  */
+  .sidenav2 {
+    top: 140px; }
+
+  .close_frame_1 {
+    top: 140px; } }
 @media screen and (min-width: 1050px) {
   /* Import variables
   @import "../var_colors/colors.scss";
@@ -494,20 +620,6 @@ body {
       text-align: center; }
     .camera02 .input_ {
       padding-left: 5%; }
-
-  frame-area {
-    display: block;
-    width: 100%;
-    /* RESPONSIVE WIDTH */
-    height: 300px;
-    overflow: auto;
-    /* EDIT TO hidden FOR NO SCROLLBAR */
-    border: #999999 1px solid;
-    margin: 0px;
-    padding: 0px; }
-
-  body {
-    background-color: #E26882; }
 
   /*
   h1{
