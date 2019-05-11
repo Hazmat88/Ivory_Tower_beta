@@ -255,6 +255,12 @@
       height: 25px;
       border: none;
       text-align: center; }
+  .camera02 .validationB {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 45px;
+    background-color: #A7558F; }
   .camera02 .input_ {
     padding-left: 10%; }
   .camera02 .titleB {
@@ -291,11 +297,6 @@
     border: none;
     text-align: center; }
 
-/*
-.article{
-  @include nomdumixins(red,500px);
-}
-*/
 /*
 .article{
   @include nomdumixins(red,500px);
@@ -347,7 +348,7 @@
   color: #E26882; }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-.flux_A, .sidenav2 {
+.flux_A, .MySidenav2 {
   transition: margin-Right .5s; }
 
 .iframe_app {
@@ -376,6 +377,120 @@
   right: 0px;
   z-index: 4;
   top: 170px; }
+  .close_frame_1 p {
+    color: white;
+    text-align: center;
+    padding-top: 25vw;
+    opacity: 0.5; }
+
+.open_frame_1 {
+  position: relative;
+  display: none;
+  height: 50px;
+  width: 50px;
+  background-color: #E26882;
+  right: 0px;
+  z-index: 4;
+  float: right; }
+
+.frame-area_c2 {
+  display: block;
+  width: 100%;
+  /* RESPONSIVE WIDTH */
+  height: 300px;
+  overflow: hidden;
+  /* EDIT TO hidden FOR NO SCROLLBAR */
+  margin: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  border: none; }
+
+/*
+.article{
+  @include nomdumixins(red,500px);
+}
+*/
+/* The side navigation menu */
+.sidenav3 {
+  height: 60vw;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: calc(220px + 60vw);
+  /* Stay at the top */
+  right: 0;
+  background-color: white;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.nav_links3 {
+  padding-top: 50px; }
+
+.sidenav3 a {
+  padding: 12px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #323232;
+  display: block;
+  transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav3 a:hover {
+  color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav3 .closebtn3 {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 60px;
+  margin-left: 50px;
+  color: #E26882; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.flux_B, .MySidenav3 {
+  transition: margin-Right .5s; }
+
+.iframe_app {
+  display: flex;
+  width: 100%; }
+
+.frame-area_c2 {
+  display: none;
+  display: block;
+  position: relative;
+  width: 100%;
+  /* RESPONSIVE WIDTH */
+  height: 60vw;
+  overflow: hidden;
+  /* EDIT TO hidden FOR NO SCROLLBAR */
+  margin-right: 0px;
+  padding-left: 0px;
+  border: none;
+  z-index: 2;
+  top: -50px; }
+
+.close_frame_2 {
+  position: absolute;
+  width: 100%;
+  height: 60vw;
+  right: 0px;
+  z-index: 4;
+  top: calc(220px + 60vw); }
+  .close_frame_2 p {
+    color: white;
+    text-align: center;
+    padding-top: 25vw;
+    opacity: 0.5; }
 
 .open_frame_1 {
   position: relative;

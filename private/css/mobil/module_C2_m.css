@@ -79,6 +79,12 @@
       height: 25px;
       border: none;
       text-align: center; }
+  .camera02 .validationB {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 45px;
+    background-color: #A7558F; }
   .camera02 .input_ {
     padding-left: 10%; }
   .camera02 .titleB {

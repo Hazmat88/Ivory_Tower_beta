@@ -1,12 +1,12 @@
-@import "../imports.scss";
+@import "../../imports";
 
 /* The side navigation menu */
-.sidenav2 {
+.sidenav3 {
   height: 60vw; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
-  top: 170px; /* Stay at the top */
+  top:calc(220px + 60vw); /* Stay at the top */
    right: 0;
   background-color: white; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -16,14 +16,14 @@
 }
 
 /* The navigation menu links */
-.nav_links2{
+.nav_links3{
   padding-top:50px;
 }
 
 
 
 
-.sidenav2 a {
+.sidenav3 a {
 
   padding: 12px 8px 8px 25px;
   text-decoration: none;
@@ -34,12 +34,12 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav2 a:hover {
+.sidenav3 a:hover {
   color: #f1f1f1;
 }
 
 /* Position and style the close button (top right corner) */
-.sidenav2 .closebtn2 {
+.sidenav3 .closebtn3 {
   position: absolute;
   top: 0px;
   right: 20px;
@@ -49,7 +49,7 @@
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-.flux_A,.MySidenav2 {
+.flux_B,.MySidenav3 {
   transition: margin-Right .5s;
 
 }
@@ -60,7 +60,7 @@
 }
 
 
-.frame-area_c1 {
+.frame-area_c2 {
   display: none;
 //  position:relative; //retire du flux ne subit plus le comportement push du sidenav
   display: block;
@@ -69,7 +69,7 @@
   //padding-top:-30vw;
   width: 100%;  /* RESPONSIVE WIDTH */
 //  max-width: 400px;
-  height: 60vw;
+height: 60vw;
 overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
 //  border: #999999 1px solid;
   //margin: 0px;
@@ -81,7 +81,7 @@ overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
   top:-50px;
   }
 
-.close_frame_1{
+.close_frame_2{
  position:absolute;
   //display:block;
   width:100%;
@@ -91,7 +91,7 @@ overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
   right:0px;
   z-index:4;
   //float:right;
-  top:170px;
+  top:calc(220px + 60vw);
   p{
     color:white;
     text-align: center;

@@ -99,6 +99,7 @@ function openNav() {
   document.getElementById("main").style.marginRight = "100px";
   //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
   document.getElementsByClassName("sidenav2")[0].style.marginRight= "100px";
+  document.getElementsByClassName("sidenav3")[0].style.marginRight= "100px";
 }
 
 /* Set the width of the side navigation to 0 */
@@ -106,43 +107,11 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginRight= "0";
   document.getElementsByClassName("sidenav2")[0].style.marginRight= "0px";
+  document.getElementsByClassName("sidenav3")[0].style.marginRight= "0px";
 //  document.body.style.backgroundColor = "white";
 }
-function openNav2() {
-  var frame_app1 = document.getElementsByClassName("frame-area_c1")[0];
-  document.getElementById("mySidenav2").style.width = "300px";
- document.getElementsByClassName("flux_A")[0].style.marginRight= "300px";
 
-  //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-  document.getElementsByClassName("close_frame_1")[0].style.display = "none";
-  document.getElementsByClassName("open_frame_1")[0].style.display = "block";
-  frame_app1.style.display = "block";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav2() {
-  var frame_app1 = document.getElementsByClassName("frame-area_c1")[0];
-  document.getElementById("mySidenav2").style.width = "0px";
-document.getElementsByClassName("flux_A")[0].style.marginRight= "0px";
-
-//  document.body.style.backgroundColor = "white";
-document.getElementsByClassName("close_frame_1")[0].style.display = "block";
-document.getElementsByClassName("open_frame_1")[0].style.display = "none";
-frame_app1.style.display = "none";
-}
-
-
-//CONTROLLER BAR
-
-function showhide_controller(){
-  var x = document.getElementById("controller");
-   if (x.style.display === "none") {
-     x.style.display = "block";
-   } else {
-     x.style.display = "none";
-   }
-}
-
+// BUTTONS LINKS FUNCTIONS INTO Sidenav
 // In PROGRESS FOR DESKTOP MODE OK BUT NOT CLEAN BECAUSE unit it's vw & % here than the css file only % Need two different effect if in desktop mode or Mobile By default Mobile Landscape 2 screen its ok+
 
 function screenhh(){
@@ -187,5 +156,69 @@ function screenv(){
 
 }
 
+
+// ********************** FRAME APP FUNCTIONS *********************
+
+// FRAME_APP_01_Functions
+function openNav2() {
+  var frame_app1 = document.getElementsByClassName("frame-area_c1")[0];
+  document.getElementById("mySidenav2").style.width = "300px";
+ document.getElementsByClassName("flux_A")[0].style.marginRight= "300px";
+
+  //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementsByClassName("close_frame_1")[0].style.display = "none";
+  document.getElementsByClassName("open_frame_1")[0].style.display = "block";
+  frame_app1.style.display = "block";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav2() {
+  var frame_app1 = document.getElementsByClassName("frame-area_c1")[0];
+  document.getElementById("mySidenav2").style.width = "0px";
+document.getElementsByClassName("flux_A")[0].style.marginRight= "0px";
+
+//  document.body.style.backgroundColor = "white";
+document.getElementsByClassName("close_frame_1")[0].style.display = "block";
+document.getElementsByClassName("open_frame_1")[0].style.display = "none";
+frame_app1.style.display = "none";
+}
+
+
+// FRAME_APP_02_Functions
+function openNav3() {
+  var frame_app2 = document.getElementsByClassName("frame-area_c2")[0];
+  document.getElementById("mySidenav3").style.width = "300px";
+ document.getElementsByClassName("flux_B")[0].style.marginRight= "300px";
+
+  //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementsByClassName("close_frame_2")[0].style.display = "none";
+  document.getElementsByClassName("open_frame_2")[0].style.display = "block";
+  frame_app2.style.display = "block";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav3() {
+  var frame_app2 = document.getElementsByClassName("frame-area_c2")[0];
+  document.getElementById("mySidenav3").style.width = "0px";
+document.getElementsByClassName("flux_B")[0].style.marginRight= "0px";
+
+//  document.body.style.backgroundColor = "white";
+document.getElementsByClassName("close_frame_2")[0].style.display = "block";
+document.getElementsByClassName("open_frame_2")[0].style.display = "none";
+frame_app2.style.display = "none";
+}
+
+
+
+
+//CONTROLLER BAR
+function showhide_controller(){
+  var x = document.getElementById("controller");
+   if (x.style.display === "none") {
+     x.style.display = "block";
+   } else {
+     x.style.display = "none";
+   }
+}
 //<input type='button' onclick='addNewClass(this)' value='Create' />
 //  function addNewClass(elem){ elem.className="newClass"; }

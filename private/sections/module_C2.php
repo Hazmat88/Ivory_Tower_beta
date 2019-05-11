@@ -8,6 +8,8 @@
 <!--********** HUDA ELEMENTS INPUTS & BUTTONS *************-->
 <div class="validationA" onclick="hud_switch('huda','hudA','titleA','link_titleA','ipaddA','nameA','cam01','frame-area_c1')"></div>
 
+
+
             <div class="input_">
 
 
@@ -35,12 +37,15 @@
             <div id="fluxa" class="flux_A">
 
               <div class="close_frame_1" onclick="openNav2()">
+                <p>
+                  TOUCH TO OPEN/CLOSE MENU
+                </p>
               </div>
 
               <!--<div class="open_frame_1" onclick="closeNav2()">
               </div> -->
 
-                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.32:8080/video" onclick="closeNav2()">
+                <img id="browser_video" class="cam01" alt="video" src="http://192.168.1.32:8080/video" onclick="closeNav2()" alt="touch to view">
 
 
             </div>
@@ -71,7 +76,10 @@ Good
 <div id="camera02" class="camera02">
 
         <div id="hudb" class="hudB">
-<!--********** HUDA ELEMENTS INPUTS & BUTTONS *************-->
+<!--********** HUDB ELEMENTS INPUTS & BUTTONS *************-->
+<div class="validationB" onclick="hud_switch('hudb','hudB','titleB','link_titleB','ipaddB','nameB','cam02','frame-area_c2')"></div>
+
+
       <div class="input_">
 
             <input type="text" id="dropdown_BD" placeholder="Data Base">
@@ -95,7 +103,13 @@ Good
 <!--*******************************************************************
 ********************** FLUX B **************************************************************** -->
         <div class="flux_B">
-            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.32:8080/video">
+          <div class="close_frame_2" onclick="openNav3()">
+            <p>
+              TOUCH TO OPEN/CLOSE MENU
+            </p>
+          </div>
+
+            <img id="browser_video" class="cam02" alt="video" src="http://192.168.1.32:8080/video" onclick="closeNav3()">
         </div>
 
 <!--*******************************************************************
